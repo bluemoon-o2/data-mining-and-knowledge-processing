@@ -1,0 +1,9 @@
+torch>=2.0.0
+transformers>=4.39.0
+pandas
+scikit-learn
+tqdm
+wandb
+# 可选：安装 mamba-ssm 以获得更快的速度 (Windows 上安装可能较困难)
+# mamba-ssm>=1.2.0
+# causal-conv1d>=1.2.0

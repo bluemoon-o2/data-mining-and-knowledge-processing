@@ -1,0 +1,6 @@
+2025-11-22 01:01:16,915 - main - INFO - Device: cuda
+2025-11-22 01:01:16,916 - download - INFO - Checking for cached dataset at: D:\demo\data-mining-and-knowledge-processing-main\2025-spring\exp01-data-preprocessing\word2vec_torch\word2vec_cache\kritanjalijain--amazon-reviews
+2025-11-22 01:01:16,916 - download - INFO - Found cached dataset.
+2025-11-22 01:02:38,186 - datamodule - INFO - Loading preprocessed data from cache: D:\demo\data-mining-and-knowledge-processing-main\2025-spring\exp01-data-preprocessing\word2vec_torch\word2vec_cache\kritanjalijain--amazon-reviews\train.nltk.sw-kept.preprocessed.pkl
+2025-11-22 01:07:12,907 - datamodule - INFO - Vocabulary size: 2164232
+2025-11-22 01:07:35,489 - datamodule - INFO - Loading preprocessed data from cache: D:\demo\data-mining-and-knowledge-processing-main\2025-spring\exp01-data-preprocessing\word2vec_torch\word2vec_cache\kritanjalijain--amazon-reviews\val.nltk.sw-kept.preprocessed.pkl

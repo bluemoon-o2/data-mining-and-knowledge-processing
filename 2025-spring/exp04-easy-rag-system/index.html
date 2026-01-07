@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>医疗 RAG 系统</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f9;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 { color: #2c3e50; text-align: center; }
+        .input-group { display: flex; gap: 10px; margin-bottom: 20px; }
+        input {
+            flex-grow: 1;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        button {
+            padding: 12px 24px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        button:hover { background-color: #2980b9; }
+        button:disabled { background-color: #bdc3c7; cursor: not-allowed; }
+        #loading { display: none; color: #7f8c8d; text-align: center; margin: 20px 0; }
+        #result { margin-top: 30px; }
+        .answer-box {
+            background-color: #e8f6fe;
+            padding: 20px;
+            border-left: 5px solid #3498db;
+            border-radius: 4px;
+            line-height: 1.6;
+            margin-bottom: 5px;
+            white-space: pre-wrap; /* 保留生成回答中的换行 */
+            word-break: break-all;
+        }
+        .stats-bar {
+            font-size: 13px;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+            padding: 5px 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            display: flex;
+            gap: 15px;
+        }
+        .context-item {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #eee;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            white-space: pre-wrap; /* 保留换行符 */
+            font-size: 14px;
+            line-height: 1.5;
+            color: #34495e;
+        }
+        .context-title { 
+            font-weight: bold; 
+            color: #2c3e50; 
+            margin-bottom: 8px; 
+            border-bottom: 1px solid #eee; 
+            padding-bottom: 5px; 
+            display: block;
+            word-break: break-all; /* 允许标题长文本换行 */
+        }
+        .context-content {
+            word-break: break-all;
+            overflow-wrap: break-word;
+        }
+        #contextArea {
+            max-height: 600px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+        .status-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .status-ready { background-color: #2ecc71; color: white; }
+        .status-loading { background-color: #f1c40f; color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📄 医疗 RAG 系统</h1>
+        <div style="text-align: center;">
+            <span id="status" class="status-badge status-loading">正在连接后端检索服务... </span>
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="queryInput" placeholder="请输入您的医疗相关问题..." onkeypress="if(event.keyCode==13) sendQuery()">
+            <button id="sendBtn" onclick="sendQuery()">提问</button>
+        </div>
+
+        <div id="loading">正在检索并生成回答，请稍候...</div>
+
+        <div id="result">
+            <div id="answerArea"></div>
+            <div id="contextArea"></div>
+        </div>
+    </div>
+
+    <script>
+        async function checkStatus() {
+            const badge = document.getElementById('status');
+            try {
+                const response = await fetch('/query', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({query: "ping"})
+                });
+                if (response.ok) {
+                    const data = await response.json();
+                    const docCount = data.stats ? data.stats.doc_count : 0;
+                    badge.innerText = `系统就绪 (已加载 ${docCount} 条医学数据)`;
+                    badge.className = "status-badge status-ready";
+                }
+            } catch (e) {
+                badge.innerText = "正在等待后端服务启动... (正在加载检索索引)";
+                badge.className = "status-badge status-loading";
+            }
+        }
+
+        setInterval(checkStatus, 2000);
+
+        async function sendQuery() {
+            const query = document.getElementById('queryInput').value;
+            if (!query) return;
+
+            const btn = document.getElementById('sendBtn');
+            const loading = document.getElementById('loading');
+            const answerArea = document.getElementById('answerArea');
+            const contextArea = document.getElementById('contextArea');
+
+            btn.disabled = true;
+            loading.style.display = 'block';
+            answerArea.innerHTML = `
+                <div id="statsBar" class="stats-bar" style="display:none; border: 1px solid #3498db; background: #e8f6fe; color: #2980b9; font-weight: bold;">
+                    <span>Tokens: <span id="tokenCount">0</span></span>
+                    <span>速度: <span id="speed">0</span> tokens/s</span>
+                    <span>耗时: <span id="elapsed">0</span>s</span>
+                </div>
+                <h3>生成的回答:</h3>
+                <div id="streamingAnswer" class="answer-box"></div>
+            `;
+            contextArea.innerHTML = '';
+            
+            const streamingAnswer = document.getElementById('streamingAnswer');
+            const statsBar = document.getElementById('statsBar');
+            const tokenCountSpan = document.getElementById('tokenCount');
+            const speedSpan = document.getElementById('speed');
+            const elapsedSpan = document.getElementById('elapsed');
+            let fullAnswer = "";
+
+            try {
+                const response = await fetch('/query/stream', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({query: query})
+                });
+
+                if (response.status === 503) {
+                    alert("系统仍在加载模型中，请稍后再试。");
+                    return;
+                }
+
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let buffer = "";
+                
+                while (true) {
+                    const { value, done } = await reader.read();
+                    if (done) break;
+                    
+                    buffer += decoder.decode(value, { stream: true });
+                    let lines = buffer.split('\n');
+                    
+                    // 最后一个元素可能是完整行，也可能是残缺行
+                    // 如果 buffer 以 \n 结尾，则 lines 最后一个元素是空字符串
+                    // 如果 buffer 不以 \n 结尾，则 lines 最后一个元素是残缺行，需要留给下一次处理
+                    buffer = lines.pop(); 
+                    
+                    for (const line of lines) {
+                        if (!line.trim()) continue;
+                        try {
+                            const data = JSON.parse(line);
+                            
+                            if (data.context) {
+                                // 处理上下文
+                                let contextHtml = '<h3>参考上下文:</h3>';
+                                data.context.forEach((doc, i) => {
+                                    contextHtml += `
+                                        <div class="context-item">
+                                            <div class="context-title">文档 ${i+1}: ${doc.title}</div>
+                                            <div class="context-content">${doc.content || '无内容'}</div>
+                                        </div>
+                                    `;
+                                });
+                                contextArea.innerHTML = contextHtml;
+                                loading.style.display = 'none'; // 收到上下文后就可以隐藏加载提示了
+                            } else if (data.answer_chunk) {
+                                // 处理回答片段
+                                fullAnswer += data.answer_chunk;
+                                streamingAnswer.innerText = fullAnswer;
+                                
+                                // 更新统计信息
+                                if (data.token_count !== undefined) {
+                                    statsBar.style.display = 'flex';
+                                    tokenCountSpan.innerText = data.token_count;
+                                    speedSpan.innerText = data.speed;
+                                    elapsedSpan.innerText = data.elapsed;
+                                }
+                            } else if (data.error) {
+                                streamingAnswer.innerHTML = `<span style="color: red;">${data.error}</span>`;
+                            }
+                        } catch (e) {
+                            console.error("解析流数据失败:", e, line);
+                        }
+                    }
+                }
+
+            } catch (error) {
+                console.error("请求失败:", error);
+                alert("请求失败，请检查后端服务器是否运行正常。");
+            } finally {
+                btn.disabled = false;
+                loading.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

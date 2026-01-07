@@ -1,0 +1,24 @@
+# Ignore all directories named 'data'
+**/data/
+**/dataset/
+# Ignore all files named 'data'
+**/hf_cache/
+**/logs/
+**/models/
+**/results/
+**/runs/
+**/tmp/
+**/wandb/
+**/2025-spring/exp01-data-preprocessing/word2vec_torch/word2vec_cache/
+
+**/__pycache__/
+
+.env
+*.csv
+*.pt
+*.md
+*.doc
+*.tmp
+figures/
+data/
+.idea/

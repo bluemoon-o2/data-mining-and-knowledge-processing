@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+jinja2
+faiss-cpu
+sentence-transformers
+transformers
+torch
+accelerate
+beautifulsoup4
+pydantic
+pandas
+matplotlib
+seaborn

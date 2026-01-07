@@ -1,0 +1,730 @@
+2025-11-20 00:57:20,237 - download - INFO - Checking for cached dataset at: D:\demo\data-mining-and-knowledge-processing-main\2025-spring\exp01-data-preprocessing\word2vec_torch\word2vec_cache\kritanjalijain--amazon-reviews
+2025-11-20 00:57:20,237 - download - INFO - Found cached dataset.
+2025-11-20 01:03:43,693 - word2vec - INFO - collecting all words and their counts
+2025-11-20 01:03:43,694 - word2vec - INFO - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-11-20 01:03:43,873 - word2vec - INFO - PROGRESS: at sentence #10000, processed 778613 words, keeping 43125 word types
+2025-11-20 01:03:44,027 - word2vec - INFO - PROGRESS: at sentence #20000, processed 1566181 words, keeping 66814 word types
+2025-11-20 01:03:44,144 - word2vec - INFO - PROGRESS: at sentence #30000, processed 2351692 words, keeping 86351 word types
+2025-11-20 01:03:44,284 - word2vec - INFO - PROGRESS: at sentence #40000, processed 3136015 words, keeping 103958 word types
+2025-11-20 01:03:44,429 - word2vec - INFO - PROGRESS: at sentence #50000, processed 3926666 words, keeping 120504 word types
+2025-11-20 01:03:44,552 - word2vec - INFO - PROGRESS: at sentence #60000, processed 4706232 words, keeping 136034 word types
+2025-11-20 01:03:44,656 - word2vec - INFO - PROGRESS: at sentence #70000, processed 5485689 words, keeping 150282 word types
+2025-11-20 01:03:44,765 - word2vec - INFO - PROGRESS: at sentence #80000, processed 6256218 words, keeping 163741 word types
+2025-11-20 01:03:44,982 - word2vec - INFO - PROGRESS: at sentence #90000, processed 7040448 words, keeping 177149 word types
+2025-11-20 01:03:45,114 - word2vec - INFO - PROGRESS: at sentence #100000, processed 7832411 words, keeping 189951 word types
+2025-11-20 01:03:45,288 - word2vec - INFO - PROGRESS: at sentence #110000, processed 8615459 words, keeping 202579 word types
+2025-11-20 01:03:45,418 - word2vec - INFO - PROGRESS: at sentence #120000, processed 9399523 words, keeping 214844 word types
+2025-11-20 01:03:45,540 - word2vec - INFO - PROGRESS: at sentence #130000, processed 10181131 words, keeping 226871 word types
+2025-11-20 01:03:45,661 - word2vec - INFO - PROGRESS: at sentence #140000, processed 10962500 words, keeping 238479 word types
+2025-11-20 01:03:45,781 - word2vec - INFO - PROGRESS: at sentence #150000, processed 11743363 words, keeping 249864 word types
+2025-11-20 01:03:45,938 - word2vec - INFO - PROGRESS: at sentence #160000, processed 12523611 words, keeping 261097 word types
+2025-11-20 01:03:46,091 - word2vec - INFO - PROGRESS: at sentence #170000, processed 13304642 words, keeping 271927 word types
+2025-11-20 01:03:46,296 - word2vec - INFO - PROGRESS: at sentence #180000, processed 14090916 words, keeping 282709 word types
+2025-11-20 01:03:46,444 - word2vec - INFO - PROGRESS: at sentence #190000, processed 14869089 words, keeping 293334 word types
+2025-11-20 01:03:46,636 - word2vec - INFO - PROGRESS: at sentence #200000, processed 15649143 words, keeping 304034 word types
+2025-11-20 01:03:46,767 - word2vec - INFO - PROGRESS: at sentence #210000, processed 16431962 words, keeping 314203 word types
+2025-11-20 01:03:46,914 - word2vec - INFO - PROGRESS: at sentence #220000, processed 17212070 words, keeping 324507 word types
+2025-11-20 01:03:47,091 - word2vec - INFO - PROGRESS: at sentence #230000, processed 17989677 words, keeping 334529 word types
+2025-11-20 01:03:47,337 - word2vec - INFO - PROGRESS: at sentence #240000, processed 18775012 words, keeping 344765 word types
+2025-11-20 01:03:47,580 - word2vec - INFO - PROGRESS: at sentence #250000, processed 19558572 words, keeping 354524 word types
+2025-11-20 01:03:47,709 - word2vec - INFO - PROGRESS: at sentence #260000, processed 20348980 words, keeping 364201 word types
+2025-11-20 01:03:47,828 - word2vec - INFO - PROGRESS: at sentence #270000, processed 21129554 words, keeping 373515 word types
+2025-11-20 01:03:47,946 - word2vec - INFO - PROGRESS: at sentence #280000, processed 21910840 words, keeping 383207 word types
+2025-11-20 01:03:48,106 - word2vec - INFO - PROGRESS: at sentence #290000, processed 22688941 words, keeping 392589 word types
+2025-11-20 01:03:48,255 - word2vec - INFO - PROGRESS: at sentence #300000, processed 23477103 words, keeping 401692 word types
+2025-11-20 01:03:48,437 - word2vec - INFO - PROGRESS: at sentence #310000, processed 24261604 words, keeping 410969 word types
+2025-11-20 01:03:48,616 - word2vec - INFO - PROGRESS: at sentence #320000, processed 25046934 words, keeping 420155 word types
+2025-11-20 01:03:48,748 - word2vec - INFO - PROGRESS: at sentence #330000, processed 25833530 words, keeping 429358 word types
+2025-11-20 01:03:48,909 - word2vec - INFO - PROGRESS: at sentence #340000, processed 26617034 words, keeping 438420 word types
+2025-11-20 01:03:49,030 - word2vec - INFO - PROGRESS: at sentence #350000, processed 27391196 words, keeping 447046 word types
+2025-11-20 01:03:49,227 - word2vec - INFO - PROGRESS: at sentence #360000, processed 28167997 words, keeping 455964 word types
+2025-11-20 01:03:49,368 - word2vec - INFO - PROGRESS: at sentence #370000, processed 28944967 words, keeping 464766 word types
+2025-11-20 01:03:49,505 - word2vec - INFO - PROGRESS: at sentence #380000, processed 29727585 words, keeping 473449 word types
+2025-11-20 01:03:49,642 - word2vec - INFO - PROGRESS: at sentence #390000, processed 30515348 words, keeping 482215 word types
+2025-11-20 01:03:49,897 - word2vec - INFO - PROGRESS: at sentence #400000, processed 31296344 words, keeping 491090 word types
+2025-11-20 01:03:50,060 - word2vec - INFO - PROGRESS: at sentence #410000, processed 32072786 words, keeping 499302 word types
+2025-11-20 01:03:50,209 - word2vec - INFO - PROGRESS: at sentence #420000, processed 32852956 words, keeping 507738 word types
+2025-11-20 01:03:50,328 - word2vec - INFO - PROGRESS: at sentence #430000, processed 33643064 words, keeping 516311 word types
+2025-11-20 01:03:50,456 - word2vec - INFO - PROGRESS: at sentence #440000, processed 34437199 words, keeping 525264 word types
+2025-11-20 01:03:50,619 - word2vec - INFO - PROGRESS: at sentence #450000, processed 35216433 words, keeping 533540 word types
+2025-11-20 01:03:50,799 - word2vec - INFO - PROGRESS: at sentence #460000, processed 35997151 words, keeping 541761 word types
+2025-11-20 01:03:50,921 - word2vec - INFO - PROGRESS: at sentence #470000, processed 36784377 words, keeping 550092 word types
+2025-11-20 01:03:51,131 - word2vec - INFO - PROGRESS: at sentence #480000, processed 37569503 words, keeping 558372 word types
+2025-11-20 01:03:51,272 - word2vec - INFO - PROGRESS: at sentence #490000, processed 38350970 words, keeping 566344 word types
+2025-11-20 01:03:51,403 - word2vec - INFO - PROGRESS: at sentence #500000, processed 39129016 words, keeping 574360 word types
+2025-11-20 01:03:51,524 - word2vec - INFO - PROGRESS: at sentence #510000, processed 39909256 words, keeping 582164 word types
+2025-11-20 01:03:51,654 - word2vec - INFO - PROGRESS: at sentence #520000, processed 40692752 words, keeping 590063 word types
+2025-11-20 01:03:51,825 - word2vec - INFO - PROGRESS: at sentence #530000, processed 41475458 words, keeping 598197 word types
+2025-11-20 01:03:51,954 - word2vec - INFO - PROGRESS: at sentence #540000, processed 42261010 words, keeping 606063 word types
+2025-11-20 01:03:52,100 - word2vec - INFO - PROGRESS: at sentence #550000, processed 43041913 words, keeping 613882 word types
+2025-11-20 01:03:52,234 - word2vec - INFO - PROGRESS: at sentence #560000, processed 43819336 words, keeping 621631 word types
+2025-11-20 01:03:52,438 - word2vec - INFO - PROGRESS: at sentence #570000, processed 44605307 words, keeping 629462 word types
+2025-11-20 01:03:52,564 - word2vec - INFO - PROGRESS: at sentence #580000, processed 45384967 words, keeping 637295 word types
+2025-11-20 01:03:52,718 - word2vec - INFO - PROGRESS: at sentence #590000, processed 46174231 words, keeping 645197 word types
+2025-11-20 01:03:52,874 - word2vec - INFO - PROGRESS: at sentence #600000, processed 46961439 words, keeping 652943 word types
+2025-11-20 01:03:53,007 - word2vec - INFO - PROGRESS: at sentence #610000, processed 47738701 words, keeping 660207 word types
+2025-11-20 01:03:53,124 - word2vec - INFO - PROGRESS: at sentence #620000, processed 48522378 words, keeping 668015 word types
+2025-11-20 01:03:53,320 - word2vec - INFO - PROGRESS: at sentence #630000, processed 49303208 words, keeping 675637 word types
+2025-11-20 01:03:53,469 - word2vec - INFO - PROGRESS: at sentence #640000, processed 50082452 words, keeping 683051 word types
+2025-11-20 01:03:53,643 - word2vec - INFO - PROGRESS: at sentence #650000, processed 50864282 words, keeping 690626 word types
+2025-11-20 01:03:53,878 - word2vec - INFO - PROGRESS: at sentence #660000, processed 51651742 words, keeping 698238 word types
+2025-11-20 01:03:54,156 - word2vec - INFO - PROGRESS: at sentence #670000, processed 52431863 words, keeping 705864 word types
+2025-11-20 01:03:54,397 - word2vec - INFO - PROGRESS: at sentence #680000, processed 53214063 words, keeping 713472 word types
+2025-11-20 01:03:54,530 - word2vec - INFO - PROGRESS: at sentence #690000, processed 53993234 words, keeping 721046 word types
+2025-11-20 01:03:54,813 - word2vec - INFO - PROGRESS: at sentence #700000, processed 54781192 words, keeping 728445 word types
+2025-11-20 01:03:54,990 - word2vec - INFO - PROGRESS: at sentence #710000, processed 55557898 words, keeping 735845 word types
+2025-11-20 01:03:55,138 - word2vec - INFO - PROGRESS: at sentence #720000, processed 56348225 words, keeping 743265 word types
+2025-11-20 01:03:55,345 - word2vec - INFO - PROGRESS: at sentence #730000, processed 57133087 words, keeping 750626 word types
+2025-11-20 01:03:55,591 - word2vec - INFO - PROGRESS: at sentence #740000, processed 57910681 words, keeping 757855 word types
+2025-11-20 01:03:55,779 - word2vec - INFO - PROGRESS: at sentence #750000, processed 58692871 words, keeping 765241 word types
+2025-11-20 01:03:55,912 - word2vec - INFO - PROGRESS: at sentence #760000, processed 59471704 words, keeping 772562 word types
+2025-11-20 01:03:56,073 - word2vec - INFO - PROGRESS: at sentence #770000, processed 60256280 words, keeping 779748 word types
+2025-11-20 01:03:56,229 - word2vec - INFO - PROGRESS: at sentence #780000, processed 61036802 words, keeping 786948 word types
+2025-11-20 01:03:56,388 - word2vec - INFO - PROGRESS: at sentence #790000, processed 61816914 words, keeping 794283 word types
+2025-11-20 01:03:56,517 - word2vec - INFO - PROGRESS: at sentence #800000, processed 62607939 words, keeping 801197 word types
+2025-11-20 01:03:56,704 - word2vec - INFO - PROGRESS: at sentence #810000, processed 63386978 words, keeping 808172 word types
+2025-11-20 01:03:56,888 - word2vec - INFO - PROGRESS: at sentence #820000, processed 64166885 words, keeping 815057 word types
+2025-11-20 01:03:57,013 - word2vec - INFO - PROGRESS: at sentence #830000, processed 64945512 words, keeping 822013 word types
+2025-11-20 01:03:57,148 - word2vec - INFO - PROGRESS: at sentence #840000, processed 65727436 words, keeping 828940 word types
+2025-11-20 01:03:57,300 - word2vec - INFO - PROGRESS: at sentence #850000, processed 66508924 words, keeping 835782 word types
+2025-11-20 01:03:57,534 - word2vec - INFO - PROGRESS: at sentence #860000, processed 67295073 words, keeping 842844 word types
+2025-11-20 01:03:57,670 - word2vec - INFO - PROGRESS: at sentence #870000, processed 68079507 words, keeping 849642 word types
+2025-11-20 01:03:57,806 - word2vec - INFO - PROGRESS: at sentence #880000, processed 68867384 words, keeping 856508 word types
+2025-11-20 01:03:58,050 - word2vec - INFO - PROGRESS: at sentence #890000, processed 69651085 words, keeping 863314 word types
+2025-11-20 01:03:58,188 - word2vec - INFO - PROGRESS: at sentence #900000, processed 70430621 words, keeping 870249 word types
+2025-11-20 01:03:58,347 - word2vec - INFO - PROGRESS: at sentence #910000, processed 71212012 words, keeping 877422 word types
+2025-11-20 01:03:58,483 - word2vec - INFO - PROGRESS: at sentence #920000, processed 71990983 words, keeping 884313 word types
+2025-11-20 01:03:58,625 - word2vec - INFO - PROGRESS: at sentence #930000, processed 72780695 words, keeping 891119 word types
+2025-11-20 01:03:58,758 - word2vec - INFO - PROGRESS: at sentence #940000, processed 73555411 words, keeping 897627 word types
+2025-11-20 01:03:58,954 - word2vec - INFO - PROGRESS: at sentence #950000, processed 74338395 words, keeping 904422 word types
+2025-11-20 01:03:59,346 - word2vec - INFO - PROGRESS: at sentence #960000, processed 75121795 words, keeping 911309 word types
+2025-11-20 01:03:59,493 - word2vec - INFO - PROGRESS: at sentence #970000, processed 75901890 words, keeping 917914 word types
+2025-11-20 01:03:59,805 - word2vec - INFO - PROGRESS: at sentence #980000, processed 76682662 words, keeping 924427 word types
+2025-11-20 01:03:59,971 - word2vec - INFO - PROGRESS: at sentence #990000, processed 77456859 words, keeping 931371 word types
+2025-11-20 01:04:00,127 - word2vec - INFO - PROGRESS: at sentence #1000000, processed 78234126 words, keeping 938195 word types
+2025-11-20 01:04:00,268 - word2vec - INFO - PROGRESS: at sentence #1010000, processed 79018259 words, keeping 945009 word types
+2025-11-20 01:04:00,435 - word2vec - INFO - PROGRESS: at sentence #1020000, processed 79798199 words, keeping 951790 word types
+2025-11-20 01:04:00,699 - word2vec - INFO - PROGRESS: at sentence #1030000, processed 80575927 words, keeping 958315 word types
+2025-11-20 01:04:00,901 - word2vec - INFO - PROGRESS: at sentence #1040000, processed 81356432 words, keeping 964908 word types
+2025-11-20 01:04:01,064 - word2vec - INFO - PROGRESS: at sentence #1050000, processed 82144276 words, keeping 971496 word types
+2025-11-20 01:04:01,186 - word2vec - INFO - PROGRESS: at sentence #1060000, processed 82924523 words, keeping 978180 word types
+2025-11-20 01:04:01,329 - word2vec - INFO - PROGRESS: at sentence #1070000, processed 83697097 words, keeping 984497 word types
+2025-11-20 01:04:01,612 - word2vec - INFO - PROGRESS: at sentence #1080000, processed 84473409 words, keeping 991042 word types
+2025-11-20 01:04:01,800 - word2vec - INFO - PROGRESS: at sentence #1090000, processed 85255447 words, keeping 997481 word types
+2025-11-20 01:04:01,922 - word2vec - INFO - PROGRESS: at sentence #1100000, processed 86030828 words, keeping 1004092 word types
+2025-11-20 01:04:02,056 - word2vec - INFO - PROGRESS: at sentence #1110000, processed 86810674 words, keeping 1010747 word types
+2025-11-20 01:04:02,269 - word2vec - INFO - PROGRESS: at sentence #1120000, processed 87597021 words, keeping 1017138 word types
+2025-11-20 01:04:02,446 - word2vec - INFO - PROGRESS: at sentence #1130000, processed 88376617 words, keeping 1023532 word types
+2025-11-20 01:04:02,588 - word2vec - INFO - PROGRESS: at sentence #1140000, processed 89154028 words, keeping 1029923 word types
+2025-11-20 01:04:02,738 - word2vec - INFO - PROGRESS: at sentence #1150000, processed 89928504 words, keeping 1036071 word types
+2025-11-20 01:04:02,943 - word2vec - INFO - PROGRESS: at sentence #1160000, processed 90714214 words, keeping 1042451 word types
+2025-11-20 01:04:03,081 - word2vec - INFO - PROGRESS: at sentence #1170000, processed 91493086 words, keeping 1048703 word types
+2025-11-20 01:04:03,226 - word2vec - INFO - PROGRESS: at sentence #1180000, processed 92280658 words, keeping 1055052 word types
+2025-11-20 01:04:03,352 - word2vec - INFO - PROGRESS: at sentence #1190000, processed 93052431 words, keeping 1061431 word types
+2025-11-20 01:04:03,486 - word2vec - INFO - PROGRESS: at sentence #1200000, processed 93833984 words, keeping 1067784 word types
+2025-11-20 01:04:03,610 - word2vec - INFO - PROGRESS: at sentence #1210000, processed 94613844 words, keeping 1073901 word types
+2025-11-20 01:04:03,786 - word2vec - INFO - PROGRESS: at sentence #1220000, processed 95401410 words, keeping 1080154 word types
+2025-11-20 01:04:03,959 - word2vec - INFO - PROGRESS: at sentence #1230000, processed 96185478 words, keeping 1086460 word types
+2025-11-20 01:04:04,089 - word2vec - INFO - PROGRESS: at sentence #1240000, processed 96970291 words, keeping 1092516 word types
+2025-11-20 01:04:04,317 - word2vec - INFO - PROGRESS: at sentence #1250000, processed 97751584 words, keeping 1098588 word types
+2025-11-20 01:04:04,455 - word2vec - INFO - PROGRESS: at sentence #1260000, processed 98534623 words, keeping 1104856 word types
+2025-11-20 01:04:04,665 - word2vec - INFO - PROGRESS: at sentence #1270000, processed 99318745 words, keeping 1110946 word types
+2025-11-20 01:04:04,844 - word2vec - INFO - PROGRESS: at sentence #1280000, processed 100100781 words, keeping 1117188 word types
+2025-11-20 01:04:04,996 - word2vec - INFO - PROGRESS: at sentence #1290000, processed 100878174 words, keeping 1123217 word types
+2025-11-20 01:04:05,136 - word2vec - INFO - PROGRESS: at sentence #1300000, processed 101665823 words, keeping 1129128 word types
+2025-11-20 01:04:05,270 - word2vec - INFO - PROGRESS: at sentence #1310000, processed 102440943 words, keeping 1135353 word types
+2025-11-20 01:04:05,400 - word2vec - INFO - PROGRESS: at sentence #1320000, processed 103223892 words, keeping 1141398 word types
+2025-11-20 01:04:05,560 - word2vec - INFO - PROGRESS: at sentence #1330000, processed 104008870 words, keeping 1147654 word types
+2025-11-20 01:04:05,696 - word2vec - INFO - PROGRESS: at sentence #1340000, processed 104786871 words, keeping 1153892 word types
+2025-11-20 01:04:05,850 - word2vec - INFO - PROGRESS: at sentence #1350000, processed 105568558 words, keeping 1160230 word types
+2025-11-20 01:04:06,037 - word2vec - INFO - PROGRESS: at sentence #1360000, processed 106350859 words, keeping 1166400 word types
+2025-11-20 01:04:06,169 - word2vec - INFO - PROGRESS: at sentence #1370000, processed 107131097 words, keeping 1172403 word types
+2025-11-20 01:04:06,325 - word2vec - INFO - PROGRESS: at sentence #1380000, processed 107909728 words, keeping 1178524 word types
+2025-11-20 01:04:06,502 - word2vec - INFO - PROGRESS: at sentence #1390000, processed 108688431 words, keeping 1184361 word types
+2025-11-20 01:04:06,671 - word2vec - INFO - PROGRESS: at sentence #1400000, processed 109469176 words, keeping 1190445 word types
+2025-11-20 01:04:06,849 - word2vec - INFO - PROGRESS: at sentence #1410000, processed 110242394 words, keeping 1196296 word types
+2025-11-20 01:04:07,074 - word2vec - INFO - PROGRESS: at sentence #1420000, processed 111024617 words, keeping 1202449 word types
+2025-11-20 01:04:07,217 - word2vec - INFO - PROGRESS: at sentence #1430000, processed 111799012 words, keeping 1208489 word types
+2025-11-20 01:04:07,362 - word2vec - INFO - PROGRESS: at sentence #1440000, processed 112582608 words, keeping 1214498 word types
+2025-11-20 01:04:07,497 - word2vec - INFO - PROGRESS: at sentence #1450000, processed 113365929 words, keeping 1220485 word types
+2025-11-20 01:04:07,627 - word2vec - INFO - PROGRESS: at sentence #1460000, processed 114146849 words, keeping 1226392 word types
+2025-11-20 01:04:07,780 - word2vec - INFO - PROGRESS: at sentence #1470000, processed 114920197 words, keeping 1232335 word types
+2025-11-20 01:04:07,946 - word2vec - INFO - PROGRESS: at sentence #1480000, processed 115706837 words, keeping 1238216 word types
+2025-11-20 01:04:08,200 - word2vec - INFO - PROGRESS: at sentence #1490000, processed 116489337 words, keeping 1244137 word types
+2025-11-20 01:04:08,347 - word2vec - INFO - PROGRESS: at sentence #1500000, processed 117270467 words, keeping 1250145 word types
+2025-11-20 01:04:08,507 - word2vec - INFO - PROGRESS: at sentence #1510000, processed 118047704 words, keeping 1256138 word types
+2025-11-20 01:04:08,719 - word2vec - INFO - PROGRESS: at sentence #1520000, processed 118834279 words, keeping 1262028 word types
+2025-11-20 01:04:08,870 - word2vec - INFO - PROGRESS: at sentence #1530000, processed 119615564 words, keeping 1267889 word types
+2025-11-20 01:04:09,035 - word2vec - INFO - PROGRESS: at sentence #1540000, processed 120397048 words, keeping 1273612 word types
+2025-11-20 01:04:09,253 - word2vec - INFO - PROGRESS: at sentence #1550000, processed 121173454 words, keeping 1279438 word types
+2025-11-20 01:04:09,484 - word2vec - INFO - PROGRESS: at sentence #1560000, processed 121950682 words, keeping 1285341 word types
+2025-11-20 01:04:09,612 - word2vec - INFO - PROGRESS: at sentence #1570000, processed 122731806 words, keeping 1291188 word types
+2025-11-20 01:04:09,759 - word2vec - INFO - PROGRESS: at sentence #1580000, processed 123509584 words, keeping 1297028 word types
+2025-11-20 01:04:09,944 - word2vec - INFO - PROGRESS: at sentence #1590000, processed 124299334 words, keeping 1302907 word types
+2025-11-20 01:04:10,127 - word2vec - INFO - PROGRESS: at sentence #1600000, processed 125089437 words, keeping 1308914 word types
+2025-11-20 01:04:10,361 - word2vec - INFO - PROGRESS: at sentence #1610000, processed 125865153 words, keeping 1314690 word types
+2025-11-20 01:04:10,530 - word2vec - INFO - PROGRESS: at sentence #1620000, processed 126652475 words, keeping 1320545 word types
+2025-11-20 01:04:10,663 - word2vec - INFO - PROGRESS: at sentence #1630000, processed 127428980 words, keeping 1326322 word types
+2025-11-20 01:04:10,862 - word2vec - INFO - PROGRESS: at sentence #1640000, processed 128208244 words, keeping 1332251 word types
+2025-11-20 01:04:10,993 - word2vec - INFO - PROGRESS: at sentence #1650000, processed 128996162 words, keeping 1338098 word types
+2025-11-20 01:04:11,167 - word2vec - INFO - PROGRESS: at sentence #1660000, processed 129777798 words, keeping 1343889 word types
+2025-11-20 01:04:11,303 - word2vec - INFO - PROGRESS: at sentence #1670000, processed 130559498 words, keeping 1349657 word types
+2025-11-20 01:04:11,452 - word2vec - INFO - PROGRESS: at sentence #1680000, processed 131336615 words, keeping 1355284 word types
+2025-11-20 01:04:11,590 - word2vec - INFO - PROGRESS: at sentence #1690000, processed 132117971 words, keeping 1360948 word types
+2025-11-20 01:04:11,721 - word2vec - INFO - PROGRESS: at sentence #1700000, processed 132904747 words, keeping 1366615 word types
+2025-11-20 01:04:11,882 - word2vec - INFO - PROGRESS: at sentence #1710000, processed 133683384 words, keeping 1372247 word types
+2025-11-20 01:04:12,005 - word2vec - INFO - PROGRESS: at sentence #1720000, processed 134468587 words, keeping 1377768 word types
+2025-11-20 01:04:12,147 - word2vec - INFO - PROGRESS: at sentence #1730000, processed 135250238 words, keeping 1383738 word types
+2025-11-20 01:04:12,274 - word2vec - INFO - PROGRESS: at sentence #1740000, processed 136036063 words, keeping 1389478 word types
+2025-11-20 01:04:12,438 - word2vec - INFO - PROGRESS: at sentence #1750000, processed 136817703 words, keeping 1395110 word types
+2025-11-20 01:04:12,718 - word2vec - INFO - PROGRESS: at sentence #1760000, processed 137596733 words, keeping 1400663 word types
+2025-11-20 01:04:12,852 - word2vec - INFO - PROGRESS: at sentence #1770000, processed 138378397 words, keeping 1406244 word types
+2025-11-20 01:04:12,980 - word2vec - INFO - PROGRESS: at sentence #1780000, processed 139156247 words, keeping 1411722 word types
+2025-11-20 01:04:13,172 - word2vec - INFO - PROGRESS: at sentence #1790000, processed 139940928 words, keeping 1417291 word types
+2025-11-20 01:04:13,314 - word2vec - INFO - PROGRESS: at sentence #1800000, processed 140720975 words, keeping 1423112 word types
+2025-11-20 01:04:13,454 - word2vec - INFO - PROGRESS: at sentence #1810000, processed 141498884 words, keeping 1428671 word types
+2025-11-20 01:04:13,589 - word2vec - INFO - PROGRESS: at sentence #1820000, processed 142279275 words, keeping 1434066 word types
+2025-11-20 01:04:13,729 - word2vec - INFO - PROGRESS: at sentence #1830000, processed 143065811 words, keeping 1439774 word types
+2025-11-20 01:04:13,881 - word2vec - INFO - PROGRESS: at sentence #1840000, processed 143849529 words, keeping 1445239 word types
+2025-11-20 01:04:14,015 - word2vec - INFO - PROGRESS: at sentence #1850000, processed 144630985 words, keeping 1450901 word types
+2025-11-20 01:04:14,165 - word2vec - INFO - PROGRESS: at sentence #1860000, processed 145412374 words, keeping 1456363 word types
+2025-11-20 01:04:14,361 - word2vec - INFO - PROGRESS: at sentence #1870000, processed 146192070 words, keeping 1462064 word types
+2025-11-20 01:04:14,535 - word2vec - INFO - PROGRESS: at sentence #1880000, processed 146974752 words, keeping 1467439 word types
+2025-11-20 01:04:14,687 - word2vec - INFO - PROGRESS: at sentence #1890000, processed 147748102 words, keeping 1473108 word types
+2025-11-20 01:04:14,822 - word2vec - INFO - PROGRESS: at sentence #1900000, processed 148532008 words, keeping 1478789 word types
+2025-11-20 01:04:14,950 - word2vec - INFO - PROGRESS: at sentence #1910000, processed 149308764 words, keeping 1484494 word types
+2025-11-20 01:04:15,140 - word2vec - INFO - PROGRESS: at sentence #1920000, processed 150088755 words, keeping 1490214 word types
+2025-11-20 01:04:15,332 - word2vec - INFO - PROGRESS: at sentence #1930000, processed 150875637 words, keeping 1495714 word types
+2025-11-20 01:04:15,468 - word2vec - INFO - PROGRESS: at sentence #1940000, processed 151663370 words, keeping 1501281 word types
+2025-11-20 01:04:15,640 - word2vec - INFO - PROGRESS: at sentence #1950000, processed 152448597 words, keeping 1506625 word types
+2025-11-20 01:04:15,772 - word2vec - INFO - PROGRESS: at sentence #1960000, processed 153227517 words, keeping 1512160 word types
+2025-11-20 01:04:16,020 - word2vec - INFO - PROGRESS: at sentence #1970000, processed 154015857 words, keeping 1517776 word types
+2025-11-20 01:04:16,179 - word2vec - INFO - PROGRESS: at sentence #1980000, processed 154797711 words, keeping 1523254 word types
+2025-11-20 01:04:16,313 - word2vec - INFO - PROGRESS: at sentence #1990000, processed 155575192 words, keeping 1528703 word types
+2025-11-20 01:04:16,568 - word2vec - INFO - PROGRESS: at sentence #2000000, processed 156357592 words, keeping 1534295 word types
+2025-11-20 01:04:16,703 - word2vec - INFO - PROGRESS: at sentence #2010000, processed 157138808 words, keeping 1539828 word types
+2025-11-20 01:04:16,870 - word2vec - INFO - PROGRESS: at sentence #2020000, processed 157919374 words, keeping 1545202 word types
+2025-11-20 01:04:17,026 - word2vec - INFO - PROGRESS: at sentence #2030000, processed 158703633 words, keeping 1550602 word types
+2025-11-20 01:04:17,213 - word2vec - INFO - PROGRESS: at sentence #2040000, processed 159483023 words, keeping 1555946 word types
+2025-11-20 01:04:17,404 - word2vec - INFO - PROGRESS: at sentence #2050000, processed 160270368 words, keeping 1561488 word types
+2025-11-20 01:04:17,536 - word2vec - INFO - PROGRESS: at sentence #2060000, processed 161047595 words, keeping 1566959 word types
+2025-11-20 01:04:17,648 - word2vec - INFO - PROGRESS: at sentence #2070000, processed 161835158 words, keeping 1572280 word types
+2025-11-20 01:04:17,816 - word2vec - INFO - PROGRESS: at sentence #2080000, processed 162611408 words, keeping 1577752 word types
+2025-11-20 01:04:18,035 - word2vec - INFO - PROGRESS: at sentence #2090000, processed 163394816 words, keeping 1583187 word types
+2025-11-20 01:04:18,237 - word2vec - INFO - PROGRESS: at sentence #2100000, processed 164179255 words, keeping 1588425 word types
+2025-11-20 01:04:18,441 - word2vec - INFO - PROGRESS: at sentence #2110000, processed 164956206 words, keeping 1593826 word types
+2025-11-20 01:04:18,745 - word2vec - INFO - PROGRESS: at sentence #2120000, processed 165737564 words, keeping 1599165 word types
+2025-11-20 01:04:18,888 - word2vec - INFO - PROGRESS: at sentence #2130000, processed 166525278 words, keeping 1604672 word types
+2025-11-20 01:04:19,033 - word2vec - INFO - PROGRESS: at sentence #2140000, processed 167299040 words, keeping 1610021 word types
+2025-11-20 01:04:19,161 - word2vec - INFO - PROGRESS: at sentence #2150000, processed 168082721 words, keeping 1615566 word types
+2025-11-20 01:04:19,358 - word2vec - INFO - PROGRESS: at sentence #2160000, processed 168861150 words, keeping 1620869 word types
+2025-11-20 01:04:19,524 - word2vec - INFO - PROGRESS: at sentence #2170000, processed 169650110 words, keeping 1626291 word types
+2025-11-20 01:04:19,655 - word2vec - INFO - PROGRESS: at sentence #2180000, processed 170426560 words, keeping 1631639 word types
+2025-11-20 01:04:19,804 - word2vec - INFO - PROGRESS: at sentence #2190000, processed 171207673 words, keeping 1637013 word types
+2025-11-20 01:04:19,981 - word2vec - INFO - PROGRESS: at sentence #2200000, processed 171992426 words, keeping 1642414 word types
+2025-11-20 01:04:20,249 - word2vec - INFO - PROGRESS: at sentence #2210000, processed 172777375 words, keeping 1647704 word types
+2025-11-20 01:04:20,376 - word2vec - INFO - PROGRESS: at sentence #2220000, processed 173561082 words, keeping 1652916 word types
+2025-11-20 01:04:20,527 - word2vec - INFO - PROGRESS: at sentence #2230000, processed 174341809 words, keeping 1658236 word types
+2025-11-20 01:04:20,658 - word2vec - INFO - PROGRESS: at sentence #2240000, processed 175124556 words, keeping 1663413 word types
+2025-11-20 01:04:20,796 - word2vec - INFO - PROGRESS: at sentence #2250000, processed 175908199 words, keeping 1668936 word types
+2025-11-20 01:04:20,978 - word2vec - INFO - PROGRESS: at sentence #2260000, processed 176688459 words, keeping 1674336 word types
+2025-11-20 01:04:21,137 - word2vec - INFO - PROGRESS: at sentence #2270000, processed 177470942 words, keeping 1679651 word types
+2025-11-20 01:04:21,267 - word2vec - INFO - PROGRESS: at sentence #2280000, processed 178250576 words, keeping 1684976 word types
+2025-11-20 01:04:21,437 - word2vec - INFO - PROGRESS: at sentence #2290000, processed 179041182 words, keeping 1690295 word types
+2025-11-20 01:04:21,594 - word2vec - INFO - PROGRESS: at sentence #2300000, processed 179822339 words, keeping 1695694 word types
+2025-11-20 01:04:21,721 - word2vec - INFO - PROGRESS: at sentence #2310000, processed 180604655 words, keeping 1701014 word types
+2025-11-20 01:04:21,913 - word2vec - INFO - PROGRESS: at sentence #2320000, processed 181391970 words, keeping 1706294 word types
+2025-11-20 01:04:22,057 - word2vec - INFO - PROGRESS: at sentence #2330000, processed 182172583 words, keeping 1711466 word types
+2025-11-20 01:04:22,220 - word2vec - INFO - PROGRESS: at sentence #2340000, processed 182953654 words, keeping 1716637 word types
+2025-11-20 01:04:22,359 - word2vec - INFO - PROGRESS: at sentence #2350000, processed 183738190 words, keeping 1721922 word types
+2025-11-20 01:04:22,493 - word2vec - INFO - PROGRESS: at sentence #2360000, processed 184520464 words, keeping 1727268 word types
+2025-11-20 01:04:22,627 - word2vec - INFO - PROGRESS: at sentence #2370000, processed 185300555 words, keeping 1732372 word types
+2025-11-20 01:04:22,797 - word2vec - INFO - PROGRESS: at sentence #2380000, processed 186082935 words, keeping 1737586 word types
+2025-11-20 01:04:22,972 - word2vec - INFO - PROGRESS: at sentence #2390000, processed 186860709 words, keeping 1742888 word types
+2025-11-20 01:04:23,131 - word2vec - INFO - PROGRESS: at sentence #2400000, processed 187642718 words, keeping 1748196 word types
+2025-11-20 01:04:23,295 - word2vec - INFO - PROGRESS: at sentence #2410000, processed 188429672 words, keeping 1753478 word types
+2025-11-20 01:04:23,462 - word2vec - INFO - PROGRESS: at sentence #2420000, processed 189203484 words, keeping 1758725 word types
+2025-11-20 01:04:23,656 - word2vec - INFO - PROGRESS: at sentence #2430000, processed 189990509 words, keeping 1763935 word types
+2025-11-20 01:04:23,800 - word2vec - INFO - PROGRESS: at sentence #2440000, processed 190769591 words, keeping 1769031 word types
+2025-11-20 01:04:23,965 - word2vec - INFO - PROGRESS: at sentence #2450000, processed 191557295 words, keeping 1774235 word types
+2025-11-20 01:04:24,157 - word2vec - INFO - PROGRESS: at sentence #2460000, processed 192341616 words, keeping 1779504 word types
+2025-11-20 01:04:24,292 - word2vec - INFO - PROGRESS: at sentence #2470000, processed 193127647 words, keeping 1784781 word types
+2025-11-20 01:04:24,410 - word2vec - INFO - PROGRESS: at sentence #2480000, processed 193903445 words, keeping 1789868 word types
+2025-11-20 01:04:24,538 - word2vec - INFO - PROGRESS: at sentence #2490000, processed 194684969 words, keeping 1795066 word types
+2025-11-20 01:04:24,660 - word2vec - INFO - PROGRESS: at sentence #2500000, processed 195470186 words, keeping 1800302 word types
+2025-11-20 01:04:24,786 - word2vec - INFO - PROGRESS: at sentence #2510000, processed 196255934 words, keeping 1805574 word types
+2025-11-20 01:04:24,918 - word2vec - INFO - PROGRESS: at sentence #2520000, processed 197040495 words, keeping 1810663 word types
+2025-11-20 01:04:25,063 - word2vec - INFO - PROGRESS: at sentence #2530000, processed 197827286 words, keeping 1815662 word types
+2025-11-20 01:04:25,251 - word2vec - INFO - PROGRESS: at sentence #2540000, processed 198607496 words, keeping 1820628 word types
+2025-11-20 01:04:25,413 - word2vec - INFO - PROGRESS: at sentence #2550000, processed 199391691 words, keeping 1825714 word types
+2025-11-20 01:04:25,542 - word2vec - INFO - PROGRESS: at sentence #2560000, processed 200178880 words, keeping 1830679 word types
+2025-11-20 01:04:25,696 - word2vec - INFO - PROGRESS: at sentence #2570000, processed 200965765 words, keeping 1835870 word types
+2025-11-20 01:04:25,878 - word2vec - INFO - PROGRESS: at sentence #2580000, processed 201747861 words, keeping 1841104 word types
+2025-11-20 01:04:26,015 - word2vec - INFO - PROGRESS: at sentence #2590000, processed 202531296 words, keeping 1846152 word types
+2025-11-20 01:04:26,136 - word2vec - INFO - PROGRESS: at sentence #2600000, processed 203311205 words, keeping 1851113 word types
+2025-11-20 01:04:26,297 - word2vec - INFO - PROGRESS: at sentence #2610000, processed 204096474 words, keeping 1856238 word types
+2025-11-20 01:04:26,518 - word2vec - INFO - PROGRESS: at sentence #2620000, processed 204877330 words, keeping 1861274 word types
+2025-11-20 01:04:26,716 - word2vec - INFO - PROGRESS: at sentence #2630000, processed 205667740 words, keeping 1866307 word types
+2025-11-20 01:04:26,846 - word2vec - INFO - PROGRESS: at sentence #2640000, processed 206446206 words, keeping 1871450 word types
+2025-11-20 01:04:27,078 - word2vec - INFO - PROGRESS: at sentence #2650000, processed 207228647 words, keeping 1876626 word types
+2025-11-20 01:04:27,210 - word2vec - INFO - PROGRESS: at sentence #2660000, processed 208016357 words, keeping 1881712 word types
+2025-11-20 01:04:27,337 - word2vec - INFO - PROGRESS: at sentence #2670000, processed 208803939 words, keeping 1886783 word types
+2025-11-20 01:04:27,458 - word2vec - INFO - PROGRESS: at sentence #2680000, processed 209587838 words, keeping 1891828 word types
+2025-11-20 01:04:27,588 - word2vec - INFO - PROGRESS: at sentence #2690000, processed 210369258 words, keeping 1896756 word types
+2025-11-20 01:04:27,743 - word2vec - INFO - PROGRESS: at sentence #2700000, processed 211149889 words, keeping 1901744 word types
+2025-11-20 01:04:27,889 - word2vec - INFO - PROGRESS: at sentence #2710000, processed 211932726 words, keeping 1906689 word types
+2025-11-20 01:04:28,058 - word2vec - INFO - PROGRESS: at sentence #2720000, processed 212714376 words, keeping 1911710 word types
+2025-11-20 01:04:28,228 - word2vec - INFO - PROGRESS: at sentence #2730000, processed 213494243 words, keeping 1916572 word types
+2025-11-20 01:04:28,412 - word2vec - INFO - PROGRESS: at sentence #2740000, processed 214272079 words, keeping 1921663 word types
+2025-11-20 01:04:28,590 - word2vec - INFO - PROGRESS: at sentence #2750000, processed 215055812 words, keeping 1926731 word types
+2025-11-20 01:04:28,732 - word2vec - INFO - PROGRESS: at sentence #2760000, processed 215832719 words, keeping 1931491 word types
+2025-11-20 01:04:28,887 - word2vec - INFO - PROGRESS: at sentence #2770000, processed 216610015 words, keeping 1936597 word types
+2025-11-20 01:04:29,088 - word2vec - INFO - PROGRESS: at sentence #2780000, processed 217393941 words, keeping 1941449 word types
+2025-11-20 01:04:29,227 - word2vec - INFO - PROGRESS: at sentence #2790000, processed 218178572 words, keeping 1946343 word types
+2025-11-20 01:04:29,361 - word2vec - INFO - PROGRESS: at sentence #2800000, processed 218963122 words, keeping 1951264 word types
+2025-11-20 01:04:29,482 - word2vec - INFO - PROGRESS: at sentence #2810000, processed 219749202 words, keeping 1956391 word types
+2025-11-20 01:04:29,616 - word2vec - INFO - PROGRESS: at sentence #2820000, processed 220534825 words, keeping 1961489 word types
+2025-11-20 01:04:29,826 - word2vec - INFO - PROGRESS: at sentence #2830000, processed 221315571 words, keeping 1966459 word types
+2025-11-20 01:04:29,951 - word2vec - INFO - PROGRESS: at sentence #2840000, processed 222097056 words, keeping 1971505 word types
+2025-11-20 01:04:30,072 - word2vec - INFO - PROGRESS: at sentence #2850000, processed 222883182 words, keeping 1976614 word types
+2025-11-20 01:04:30,209 - word2vec - INFO - PROGRESS: at sentence #2860000, processed 223663113 words, keeping 1981495 word types
+2025-11-20 01:04:30,361 - word2vec - INFO - PROGRESS: at sentence #2870000, processed 224448020 words, keeping 1986427 word types
+2025-11-20 01:04:30,493 - word2vec - INFO - PROGRESS: at sentence #2880000, processed 225231284 words, keeping 1991301 word types
+2025-11-20 01:04:30,656 - word2vec - INFO - PROGRESS: at sentence #2890000, processed 226011625 words, keeping 1996265 word types
+2025-11-20 01:04:30,816 - word2vec - INFO - PROGRESS: at sentence #2900000, processed 226801576 words, keeping 2001285 word types
+2025-11-20 01:04:30,962 - word2vec - INFO - PROGRESS: at sentence #2910000, processed 227582511 words, keeping 2005933 word types
+2025-11-20 01:04:31,092 - word2vec - INFO - PROGRESS: at sentence #2920000, processed 228359531 words, keeping 2010819 word types
+2025-11-20 01:04:31,219 - word2vec - INFO - PROGRESS: at sentence #2930000, processed 229139943 words, keeping 2015708 word types
+2025-11-20 01:04:31,353 - word2vec - INFO - PROGRESS: at sentence #2940000, processed 229922714 words, keeping 2020452 word types
+2025-11-20 01:04:31,487 - word2vec - INFO - PROGRESS: at sentence #2950000, processed 230708465 words, keeping 2025356 word types
+2025-11-20 01:04:31,620 - word2vec - INFO - PROGRESS: at sentence #2960000, processed 231497114 words, keeping 2030472 word types
+2025-11-20 01:04:31,787 - word2vec - INFO - PROGRESS: at sentence #2970000, processed 232272544 words, keeping 2035148 word types
+2025-11-20 01:04:31,947 - word2vec - INFO - PROGRESS: at sentence #2980000, processed 233049136 words, keeping 2039985 word types
+2025-11-20 01:04:32,081 - word2vec - INFO - PROGRESS: at sentence #2990000, processed 233838169 words, keeping 2044946 word types
+2025-11-20 01:04:32,211 - word2vec - INFO - PROGRESS: at sentence #3000000, processed 234618621 words, keeping 2049755 word types
+2025-11-20 01:04:32,334 - word2vec - INFO - PROGRESS: at sentence #3010000, processed 235403916 words, keeping 2054549 word types
+2025-11-20 01:04:32,460 - word2vec - INFO - PROGRESS: at sentence #3020000, processed 236189400 words, keeping 2059236 word types
+2025-11-20 01:04:32,625 - word2vec - INFO - PROGRESS: at sentence #3030000, processed 236973578 words, keeping 2063984 word types
+2025-11-20 01:04:32,755 - word2vec - INFO - PROGRESS: at sentence #3040000, processed 237754724 words, keeping 2068667 word types
+2025-11-20 01:04:32,880 - word2vec - INFO - PROGRESS: at sentence #3050000, processed 238539226 words, keeping 2073530 word types
+2025-11-20 01:04:33,010 - word2vec - INFO - PROGRESS: at sentence #3060000, processed 239318644 words, keeping 2078388 word types
+2025-11-20 01:04:33,138 - word2vec - INFO - PROGRESS: at sentence #3070000, processed 240089882 words, keeping 2083036 word types
+2025-11-20 01:04:33,279 - word2vec - INFO - PROGRESS: at sentence #3080000, processed 240867604 words, keeping 2087665 word types
+2025-11-20 01:04:33,434 - word2vec - INFO - PROGRESS: at sentence #3090000, processed 241649791 words, keeping 2092474 word types
+2025-11-20 01:04:33,594 - word2vec - INFO - PROGRESS: at sentence #3100000, processed 242430440 words, keeping 2097385 word types
+2025-11-20 01:04:33,747 - word2vec - INFO - PROGRESS: at sentence #3110000, processed 243216392 words, keeping 2102364 word types
+2025-11-20 01:04:33,896 - word2vec - INFO - PROGRESS: at sentence #3120000, processed 244003506 words, keeping 2107105 word types
+2025-11-20 01:04:34,041 - word2vec - INFO - PROGRESS: at sentence #3130000, processed 244791060 words, keeping 2111895 word types
+2025-11-20 01:04:34,179 - word2vec - INFO - PROGRESS: at sentence #3140000, processed 245568700 words, keeping 2116563 word types
+2025-11-20 01:04:34,407 - word2vec - INFO - PROGRESS: at sentence #3150000, processed 246351581 words, keeping 2121229 word types
+2025-11-20 01:04:34,542 - word2vec - INFO - PROGRESS: at sentence #3160000, processed 247129504 words, keeping 2126116 word types
+2025-11-20 01:04:34,685 - word2vec - INFO - PROGRESS: at sentence #3170000, processed 247913929 words, keeping 2130902 word types
+2025-11-20 01:04:34,912 - word2vec - INFO - PROGRESS: at sentence #3180000, processed 248690828 words, keeping 2135598 word types
+2025-11-20 01:04:35,081 - word2vec - INFO - PROGRESS: at sentence #3190000, processed 249471387 words, keeping 2140384 word types
+2025-11-20 01:04:35,220 - word2vec - INFO - PROGRESS: at sentence #3200000, processed 250251882 words, keeping 2145131 word types
+2025-11-20 01:04:35,371 - word2vec - INFO - PROGRESS: at sentence #3210000, processed 251030458 words, keeping 2149885 word types
+2025-11-20 01:04:35,579 - word2vec - INFO - PROGRESS: at sentence #3220000, processed 251811822 words, keeping 2154854 word types
+2025-11-20 01:04:35,768 - word2vec - INFO - PROGRESS: at sentence #3230000, processed 252591751 words, keeping 2159558 word types
+2025-11-20 01:04:35,908 - word2vec - INFO - collected 2164232 word types from a corpus of 253369830 raw words and 3239999 sentences
+2025-11-20 01:04:35,908 - word2vec - INFO - Creating a fresh vocabulary
+2025-11-20 01:04:44,386 - utils - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 2164232 unique words (100.00% of original 2164232, drops 0)', 'datetime': '2025-11-20T01:04:44.221325', 'gensim': '4.4.0', 'python': '3.11.14 | packaged by conda-forge | (main, Oct 22 2025, 22:35:28) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26200-SP0', 'event': 'prepare_vocab'}
+2025-11-20 01:04:44,386 - utils - INFO - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 253369830 word corpus (100.00% of original 253369830, drops 0)', 'datetime': '2025-11-20T01:04:44.386676', 'gensim': '4.4.0', 'python': '3.11.14 | packaged by conda-forge | (main, Oct 22 2025, 22:35:28) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26200-SP0', 'event': 'prepare_vocab'}
+2025-11-20 01:04:53,433 - word2vec - INFO - deleting the raw counts dictionary of 2164232 items
+2025-11-20 01:04:53,456 - word2vec - INFO - sample=0.001 downsamples 45 most-common words
+2025-11-20 01:04:53,456 - utils - INFO - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 191115269.61379635 word corpus (75.4%% of prior 253369830)', 'datetime': '2025-11-20T01:04:53.456382', 'gensim': '4.4.0', 'python': '3.11.14 | packaged by conda-forge | (main, Oct 22 2025, 22:35:28) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26200-SP0', 'event': 'prepare_vocab'}
+2025-11-20 01:05:04,285 - word2vec - INFO - estimated required memory for 2164232 words and 100 dimensions: 2813501600 bytes
+2025-11-20 01:05:04,285 - word2vec - INFO - resetting layer weights
+2025-11-20 01:05:05,173 - utils - INFO - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-11-20T01:05:05.172664', 'gensim': '4.4.0', 'python': '3.11.14 | packaged by conda-forge | (main, Oct 22 2025, 22:35:28) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26200-SP0', 'event': 'build_vocab'}
+2025-11-20 01:05:05,173 - utils - INFO - Word2Vec lifecycle event {'msg': 'training model with 4 workers on 2164232 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2025-11-20T01:05:05.173677', 'gensim': '4.4.0', 'python': '3.11.14 | packaged by conda-forge | (main, Oct 22 2025, 22:35:28) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26200-SP0', 'event': 'train'}
+2025-11-20 01:05:06,177 - word2vec - INFO - EPOCH 0 - PROGRESS: at 0.89% examples, 1700856 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:05:07,177 - word2vec - INFO - EPOCH 0 - PROGRESS: at 2.24% examples, 2140449 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:08,181 - word2vec - INFO - EPOCH 0 - PROGRESS: at 3.53% examples, 2247440 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:09,183 - word2vec - INFO - EPOCH 0 - PROGRESS: at 4.85% examples, 2314463 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:05:10,188 - word2vec - INFO - EPOCH 0 - PROGRESS: at 6.26% examples, 2388312 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:11,188 - word2vec - INFO - EPOCH 0 - PROGRESS: at 7.64% examples, 2430414 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:12,188 - word2vec - INFO - EPOCH 0 - PROGRESS: at 9.02% examples, 2460305 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:13,193 - word2vec - INFO - EPOCH 0 - PROGRESS: at 10.36% examples, 2472778 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:14,198 - word2vec - INFO - EPOCH 0 - PROGRESS: at 11.62% examples, 2462813 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:05:15,197 - word2vec - INFO - EPOCH 0 - PROGRESS: at 12.86% examples, 2453493 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:16,201 - word2vec - INFO - EPOCH 0 - PROGRESS: at 14.27% examples, 2476043 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:17,204 - word2vec - INFO - EPOCH 0 - PROGRESS: at 15.69% examples, 2493944 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:18,206 - word2vec - INFO - EPOCH 0 - PROGRESS: at 17.08% examples, 2506406 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:19,208 - word2vec - INFO - EPOCH 0 - PROGRESS: at 18.46% examples, 2516721 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:20,210 - word2vec - INFO - EPOCH 0 - PROGRESS: at 19.86% examples, 2526689 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:21,216 - word2vec - INFO - EPOCH 0 - PROGRESS: at 21.28% examples, 2537040 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:22,217 - word2vec - INFO - EPOCH 0 - PROGRESS: at 22.68% examples, 2545326 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:05:23,217 - word2vec - INFO - EPOCH 0 - PROGRESS: at 24.11% examples, 2555180 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:24,218 - word2vec - INFO - EPOCH 0 - PROGRESS: at 25.53% examples, 2563578 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:25,219 - word2vec - INFO - EPOCH 0 - PROGRESS: at 26.82% examples, 2559115 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:26,220 - word2vec - INFO - EPOCH 0 - PROGRESS: at 27.98% examples, 2542971 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:27,223 - word2vec - INFO - EPOCH 0 - PROGRESS: at 29.36% examples, 2547086 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:05:28,226 - word2vec - INFO - EPOCH 0 - PROGRESS: at 30.68% examples, 2544960 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:29,229 - word2vec - INFO - EPOCH 0 - PROGRESS: at 31.90% examples, 2535632 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:05:30,229 - word2vec - INFO - EPOCH 0 - PROGRESS: at 33.28% examples, 2538869 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:31,237 - word2vec - INFO - EPOCH 0 - PROGRESS: at 34.57% examples, 2535584 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:32,237 - word2vec - INFO - EPOCH 0 - PROGRESS: at 35.88% examples, 2533904 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:33,238 - word2vec - INFO - EPOCH 0 - PROGRESS: at 37.23% examples, 2534990 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:34,238 - word2vec - INFO - EPOCH 0 - PROGRESS: at 38.51% examples, 2532470 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:35,240 - word2vec - INFO - EPOCH 0 - PROGRESS: at 39.74% examples, 2526180 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:36,241 - word2vec - INFO - EPOCH 0 - PROGRESS: at 41.16% examples, 2532293 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:37,245 - word2vec - INFO - EPOCH 0 - PROGRESS: at 42.43% examples, 2528848 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:38,247 - word2vec - INFO - EPOCH 0 - PROGRESS: at 43.87% examples, 2534371 words/s, in_qsize 7, out_qsize 1
+2025-11-20 01:05:39,247 - word2vec - INFO - EPOCH 0 - PROGRESS: at 44.94% examples, 2520069 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:40,251 - word2vec - INFO - EPOCH 0 - PROGRESS: at 46.20% examples, 2516664 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:41,251 - word2vec - INFO - EPOCH 0 - PROGRESS: at 47.45% examples, 2512980 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:42,258 - word2vec - INFO - EPOCH 0 - PROGRESS: at 48.74% examples, 2510729 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:43,260 - word2vec - INFO - EPOCH 0 - PROGRESS: at 49.98% examples, 2507306 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:05:44,268 - word2vec - INFO - EPOCH 0 - PROGRESS: at 51.06% examples, 2495532 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:45,271 - word2vec - INFO - EPOCH 0 - PROGRESS: at 52.37% examples, 2495422 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:05:46,280 - word2vec - INFO - EPOCH 0 - PROGRESS: at 53.41% examples, 2482408 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:47,280 - word2vec - INFO - EPOCH 0 - PROGRESS: at 54.65% examples, 2479751 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:48,282 - word2vec - INFO - EPOCH 0 - PROGRESS: at 55.90% examples, 2477485 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:05:49,283 - word2vec - INFO - EPOCH 0 - PROGRESS: at 57.29% examples, 2481496 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:50,288 - word2vec - INFO - EPOCH 0 - PROGRESS: at 58.48% examples, 2476816 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:51,292 - word2vec - INFO - EPOCH 0 - PROGRESS: at 59.87% examples, 2480182 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:52,295 - word2vec - INFO - EPOCH 0 - PROGRESS: at 61.28% examples, 2484666 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:53,296 - word2vec - INFO - EPOCH 0 - PROGRESS: at 62.61% examples, 2485668 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:05:54,297 - word2vec - INFO - EPOCH 0 - PROGRESS: at 63.88% examples, 2484678 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:55,301 - word2vec - INFO - EPOCH 0 - PROGRESS: at 65.14% examples, 2482783 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:56,306 - word2vec - INFO - EPOCH 0 - PROGRESS: at 66.39% examples, 2480659 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:57,306 - word2vec - INFO - EPOCH 0 - PROGRESS: at 67.57% examples, 2476249 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:58,309 - word2vec - INFO - EPOCH 0 - PROGRESS: at 68.81% examples, 2474176 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:05:59,317 - word2vec - INFO - EPOCH 0 - PROGRESS: at 70.02% examples, 2470856 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:00,317 - word2vec - INFO - EPOCH 0 - PROGRESS: at 71.10% examples, 2463575 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:01,318 - word2vec - INFO - EPOCH 0 - PROGRESS: at 72.44% examples, 2465535 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:06:02,320 - word2vec - INFO - EPOCH 0 - PROGRESS: at 73.79% examples, 2467358 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:03,321 - word2vec - INFO - EPOCH 0 - PROGRESS: at 75.08% examples, 2467369 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:04,323 - word2vec - INFO - EPOCH 0 - PROGRESS: at 76.39% examples, 2467814 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:05,325 - word2vec - INFO - EPOCH 0 - PROGRESS: at 77.72% examples, 2469244 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:06,329 - word2vec - INFO - EPOCH 0 - PROGRESS: at 79.03% examples, 2469547 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:06:07,330 - word2vec - INFO - EPOCH 0 - PROGRESS: at 80.27% examples, 2467915 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:08,331 - word2vec - INFO - EPOCH 0 - PROGRESS: at 81.64% examples, 2470468 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:09,338 - word2vec - INFO - EPOCH 0 - PROGRESS: at 83.05% examples, 2473692 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:10,342 - word2vec - INFO - EPOCH 0 - PROGRESS: at 84.37% examples, 2474308 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:11,342 - word2vec - INFO - EPOCH 0 - PROGRESS: at 85.71% examples, 2475455 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:12,344 - word2vec - INFO - EPOCH 0 - PROGRESS: at 87.01% examples, 2475726 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:13,348 - word2vec - INFO - EPOCH 0 - PROGRESS: at 88.24% examples, 2473851 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:06:14,349 - word2vec - INFO - EPOCH 0 - PROGRESS: at 89.51% examples, 2473095 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:15,353 - word2vec - INFO - EPOCH 0 - PROGRESS: at 90.84% examples, 2473960 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:06:16,357 - word2vec - INFO - EPOCH 0 - PROGRESS: at 92.02% examples, 2470725 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:17,359 - word2vec - INFO - EPOCH 0 - PROGRESS: at 93.37% examples, 2472297 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:06:18,363 - word2vec - INFO - EPOCH 0 - PROGRESS: at 94.76% examples, 2474484 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:19,364 - word2vec - INFO - EPOCH 0 - PROGRESS: at 96.17% examples, 2477603 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:20,371 - word2vec - INFO - EPOCH 0 - PROGRESS: at 97.54% examples, 2479050 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:06:21,371 - word2vec - INFO - EPOCH 0 - PROGRESS: at 98.95% examples, 2481760 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:22,104 - word2vec - INFO - EPOCH 0: training on 253369830 raw words (191109206 effective words) took 76.9s, 2484263 effective words/s
+2025-11-20 01:06:23,106 - word2vec - INFO - EPOCH 1 - PROGRESS: at 1.41% examples, 2690229 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:24,106 - word2vec - INFO - EPOCH 1 - PROGRESS: at 2.83% examples, 2699629 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:25,107 - word2vec - INFO - EPOCH 1 - PROGRESS: at 4.09% examples, 2603803 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:26,109 - word2vec - INFO - EPOCH 1 - PROGRESS: at 5.48% examples, 2615738 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:27,112 - word2vec - INFO - EPOCH 1 - PROGRESS: at 6.88% examples, 2625689 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:28,113 - word2vec - INFO - EPOCH 1 - PROGRESS: at 8.24% examples, 2621588 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:29,114 - word2vec - INFO - EPOCH 1 - PROGRESS: at 9.56% examples, 2608938 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:30,117 - word2vec - INFO - EPOCH 1 - PROGRESS: at 10.87% examples, 2593526 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:31,119 - word2vec - INFO - EPOCH 1 - PROGRESS: at 12.15% examples, 2577994 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:32,125 - word2vec - INFO - EPOCH 1 - PROGRESS: at 13.49% examples, 2574515 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:33,128 - word2vec - INFO - EPOCH 1 - PROGRESS: at 14.87% examples, 2580699 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:34,133 - word2vec - INFO - EPOCH 1 - PROGRESS: at 16.23% examples, 2580376 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:35,134 - word2vec - INFO - EPOCH 1 - PROGRESS: at 17.55% examples, 2576310 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:36,147 - word2vec - INFO - EPOCH 1 - PROGRESS: at 18.41% examples, 2508016 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:37,147 - word2vec - INFO - EPOCH 1 - PROGRESS: at 19.40% examples, 2466949 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:38,148 - word2vec - INFO - EPOCH 1 - PROGRESS: at 20.48% examples, 2441541 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:39,155 - word2vec - INFO - EPOCH 1 - PROGRESS: at 21.57% examples, 2418876 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:40,160 - word2vec - INFO - EPOCH 1 - PROGRESS: at 22.73% examples, 2407234 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:41,161 - word2vec - INFO - EPOCH 1 - PROGRESS: at 24.09% examples, 2416996 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:42,163 - word2vec - INFO - EPOCH 1 - PROGRESS: at 25.41% examples, 2422776 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:43,166 - word2vec - INFO - EPOCH 1 - PROGRESS: at 26.77% examples, 2430347 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:44,168 - word2vec - INFO - EPOCH 1 - PROGRESS: at 28.16% examples, 2440919 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:45,172 - word2vec - INFO - EPOCH 1 - PROGRESS: at 29.39% examples, 2436601 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:46,173 - word2vec - INFO - EPOCH 1 - PROGRESS: at 30.51% examples, 2423862 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:47,178 - word2vec - INFO - EPOCH 1 - PROGRESS: at 31.75% examples, 2421348 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:48,183 - word2vec - INFO - EPOCH 1 - PROGRESS: at 32.94% examples, 2414336 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:49,184 - word2vec - INFO - EPOCH 1 - PROGRESS: at 34.36% examples, 2425480 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:50,185 - word2vec - INFO - EPOCH 1 - PROGRESS: at 35.78% examples, 2435255 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:51,190 - word2vec - INFO - EPOCH 1 - PROGRESS: at 37.19% examples, 2443256 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:52,194 - word2vec - INFO - EPOCH 1 - PROGRESS: at 38.36% examples, 2436597 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:53,195 - word2vec - INFO - EPOCH 1 - PROGRESS: at 39.68% examples, 2439471 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:54,199 - word2vec - INFO - EPOCH 1 - PROGRESS: at 41.04% examples, 2443844 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:55,201 - word2vec - INFO - EPOCH 1 - PROGRESS: at 42.35% examples, 2445313 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:56,204 - word2vec - INFO - EPOCH 1 - PROGRESS: at 43.71% examples, 2449409 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:06:57,212 - word2vec - INFO - EPOCH 1 - PROGRESS: at 44.92% examples, 2444755 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:58,218 - word2vec - INFO - EPOCH 1 - PROGRESS: at 46.24% examples, 2446488 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:06:59,220 - word2vec - INFO - EPOCH 1 - PROGRESS: at 47.05% examples, 2422119 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:00,225 - word2vec - INFO - EPOCH 1 - PROGRESS: at 48.31% examples, 2421221 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:01,226 - word2vec - INFO - EPOCH 1 - PROGRESS: at 49.60% examples, 2422280 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:02,226 - word2vec - INFO - EPOCH 1 - PROGRESS: at 50.84% examples, 2420992 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:03,231 - word2vec - INFO - EPOCH 1 - PROGRESS: at 52.19% examples, 2424659 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:04,233 - word2vec - INFO - EPOCH 1 - PROGRESS: at 53.61% examples, 2431429 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:05,236 - word2vec - INFO - EPOCH 1 - PROGRESS: at 55.01% examples, 2436853 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:06,241 - word2vec - INFO - EPOCH 1 - PROGRESS: at 56.36% examples, 2439846 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:07,242 - word2vec - INFO - EPOCH 1 - PROGRESS: at 57.47% examples, 2432662 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:08,261 - word2vec - INFO - EPOCH 1 - PROGRESS: at 58.78% examples, 2433215 words/s, in_qsize 8, out_qsize 1
+2025-11-20 01:07:09,264 - word2vec - INFO - EPOCH 1 - PROGRESS: at 59.87% examples, 2425777 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:10,265 - word2vec - INFO - EPOCH 1 - PROGRESS: at 61.10% examples, 2424251 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:11,276 - word2vec - INFO - EPOCH 1 - PROGRESS: at 62.16% examples, 2415421 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:07:12,278 - word2vec - INFO - EPOCH 1 - PROGRESS: at 63.47% examples, 2417034 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:07:13,280 - word2vec - INFO - EPOCH 1 - PROGRESS: at 64.83% examples, 2420704 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:14,283 - word2vec - INFO - EPOCH 1 - PROGRESS: at 66.07% examples, 2419487 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:15,285 - word2vec - INFO - EPOCH 1 - PROGRESS: at 67.33% examples, 2419174 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:07:16,287 - word2vec - INFO - EPOCH 1 - PROGRESS: at 68.34% examples, 2410067 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:17,288 - word2vec - INFO - EPOCH 1 - PROGRESS: at 69.40% examples, 2402789 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:18,291 - word2vec - INFO - EPOCH 1 - PROGRESS: at 70.16% examples, 2385780 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:19,293 - word2vec - INFO - EPOCH 1 - PROGRESS: at 71.46% examples, 2387698 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:20,293 - word2vec - INFO - EPOCH 1 - PROGRESS: at 72.79% examples, 2390382 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:21,298 - word2vec - INFO - EPOCH 1 - PROGRESS: at 74.02% examples, 2389513 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:22,304 - word2vec - INFO - EPOCH 1 - PROGRESS: at 75.34% examples, 2391499 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:23,308 - word2vec - INFO - EPOCH 1 - PROGRESS: at 76.47% examples, 2387696 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:24,310 - word2vec - INFO - EPOCH 1 - PROGRESS: at 77.78% examples, 2389536 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:25,315 - word2vec - INFO - EPOCH 1 - PROGRESS: at 79.12% examples, 2392256 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:07:26,317 - word2vec - INFO - EPOCH 1 - PROGRESS: at 80.27% examples, 2389063 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:27,317 - word2vec - INFO - EPOCH 1 - PROGRESS: at 81.59% examples, 2391320 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:28,319 - word2vec - INFO - EPOCH 1 - PROGRESS: at 82.80% examples, 2390176 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:29,319 - word2vec - INFO - EPOCH 1 - PROGRESS: at 84.07% examples, 2390604 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:30,324 - word2vec - INFO - EPOCH 1 - PROGRESS: at 85.45% examples, 2393900 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:31,325 - word2vec - INFO - EPOCH 1 - PROGRESS: at 86.80% examples, 2396725 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:07:32,325 - word2vec - INFO - EPOCH 1 - PROGRESS: at 88.11% examples, 2398384 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:33,326 - word2vec - INFO - EPOCH 1 - PROGRESS: at 89.22% examples, 2394486 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:34,327 - word2vec - INFO - EPOCH 1 - PROGRESS: at 90.61% examples, 2397854 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:35,329 - word2vec - INFO - EPOCH 1 - PROGRESS: at 91.95% examples, 2400106 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:07:36,334 - word2vec - INFO - EPOCH 1 - PROGRESS: at 93.30% examples, 2402375 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:37,337 - word2vec - INFO - EPOCH 1 - PROGRESS: at 94.65% examples, 2404566 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:38,340 - word2vec - INFO - EPOCH 1 - PROGRESS: at 95.97% examples, 2406183 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:39,341 - word2vec - INFO - EPOCH 1 - PROGRESS: at 97.28% examples, 2407271 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:40,342 - word2vec - INFO - EPOCH 1 - PROGRESS: at 98.56% examples, 2407614 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:41,342 - word2vec - INFO - EPOCH 1 - PROGRESS: at 99.85% examples, 2408463 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:41,443 - word2vec - INFO - EPOCH 1: training on 253369830 raw words (191117478 effective words) took 79.3s, 2408874 effective words/s
+2025-11-20 01:07:42,447 - word2vec - INFO - EPOCH 2 - PROGRESS: at 1.28% examples, 2455834 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:43,448 - word2vec - INFO - EPOCH 2 - PROGRESS: at 2.66% examples, 2538746 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:44,451 - word2vec - INFO - EPOCH 2 - PROGRESS: at 4.07% examples, 2594109 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:45,451 - word2vec - INFO - EPOCH 2 - PROGRESS: at 5.49% examples, 2620174 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:46,452 - word2vec - INFO - EPOCH 2 - PROGRESS: at 6.90% examples, 2634019 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:47,453 - word2vec - INFO - EPOCH 2 - PROGRESS: at 8.29% examples, 2639827 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:48,459 - word2vec - INFO - EPOCH 2 - PROGRESS: at 9.71% examples, 2647977 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:49,460 - word2vec - INFO - EPOCH 2 - PROGRESS: at 11.14% examples, 2658540 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:50,460 - word2vec - INFO - EPOCH 2 - PROGRESS: at 12.54% examples, 2659900 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:51,462 - word2vec - INFO - EPOCH 2 - PROGRESS: at 13.97% examples, 2666518 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:52,467 - word2vec - INFO - EPOCH 2 - PROGRESS: at 15.38% examples, 2668411 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:07:53,468 - word2vec - INFO - EPOCH 2 - PROGRESS: at 16.65% examples, 2648662 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:54,467 - word2vec - INFO - EPOCH 2 - PROGRESS: at 18.00% examples, 2642844 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:55,470 - word2vec - INFO - EPOCH 2 - PROGRESS: at 19.36% examples, 2640276 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:56,472 - word2vec - INFO - EPOCH 2 - PROGRESS: at 20.71% examples, 2634893 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:57,475 - word2vec - INFO - EPOCH 2 - PROGRESS: at 22.13% examples, 2639942 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:58,480 - word2vec - INFO - EPOCH 2 - PROGRESS: at 23.52% examples, 2639780 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:07:59,481 - word2vec - INFO - EPOCH 2 - PROGRESS: at 24.84% examples, 2633449 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:00,485 - word2vec - INFO - EPOCH 2 - PROGRESS: at 26.24% examples, 2634977 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:01,491 - word2vec - INFO - EPOCH 2 - PROGRESS: at 27.50% examples, 2623945 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:02,491 - word2vec - INFO - EPOCH 2 - PROGRESS: at 28.81% examples, 2618038 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:03,492 - word2vec - INFO - EPOCH 2 - PROGRESS: at 30.02% examples, 2603443 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:04,496 - word2vec - INFO - EPOCH 2 - PROGRESS: at 31.37% examples, 2602065 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:05,497 - word2vec - INFO - EPOCH 2 - PROGRESS: at 32.71% examples, 2599916 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:06,501 - word2vec - INFO - EPOCH 2 - PROGRESS: at 33.85% examples, 2582218 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:07,502 - word2vec - INFO - EPOCH 2 - PROGRESS: at 35.16% examples, 2578680 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:08,504 - word2vec - INFO - EPOCH 2 - PROGRESS: at 36.53% examples, 2579796 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:09,508 - word2vec - INFO - EPOCH 2 - PROGRESS: at 37.90% examples, 2581067 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:10,508 - word2vec - INFO - EPOCH 2 - PROGRESS: at 39.28% examples, 2582560 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:11,510 - word2vec - INFO - EPOCH 2 - PROGRESS: at 40.47% examples, 2572380 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:12,514 - word2vec - INFO - EPOCH 2 - PROGRESS: at 41.75% examples, 2568052 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:13,513 - word2vec - INFO - EPOCH 2 - PROGRESS: at 42.97% examples, 2560320 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:14,519 - word2vec - INFO - EPOCH 2 - PROGRESS: at 44.20% examples, 2553503 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:15,520 - word2vec - INFO - EPOCH 2 - PROGRESS: at 45.57% examples, 2554899 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:16,537 - word2vec - INFO - EPOCH 2 - PROGRESS: at 46.83% examples, 2549839 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:17,544 - word2vec - INFO - EPOCH 2 - PROGRESS: at 47.91% examples, 2535423 words/s, in_qsize 6, out_qsize 1
+2025-11-20 01:08:18,545 - word2vec - INFO - EPOCH 2 - PROGRESS: at 49.18% examples, 2532585 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:19,568 - word2vec - INFO - EPOCH 2 - PROGRESS: at 50.24% examples, 2517536 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:20,572 - word2vec - INFO - EPOCH 2 - PROGRESS: at 51.31% examples, 2505371 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:21,573 - word2vec - INFO - EPOCH 2 - PROGRESS: at 52.17% examples, 2483645 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:22,573 - word2vec - INFO - EPOCH 2 - PROGRESS: at 53.36% examples, 2478544 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:23,574 - word2vec - INFO - EPOCH 2 - PROGRESS: at 54.34% examples, 2464401 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:24,574 - word2vec - INFO - EPOCH 2 - PROGRESS: at 55.69% examples, 2466946 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:25,575 - word2vec - INFO - EPOCH 2 - PROGRESS: at 56.95% examples, 2465573 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:26,578 - word2vec - INFO - EPOCH 2 - PROGRESS: at 58.24% examples, 2465338 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:08:27,580 - word2vec - INFO - EPOCH 2 - PROGRESS: at 59.48% examples, 2463137 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:08:28,581 - word2vec - INFO - EPOCH 2 - PROGRESS: at 60.58% examples, 2455538 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:29,587 - word2vec - INFO - EPOCH 2 - PROGRESS: at 61.86% examples, 2455195 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:30,587 - word2vec - INFO - EPOCH 2 - PROGRESS: at 63.13% examples, 2454417 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:31,589 - word2vec - INFO - EPOCH 2 - PROGRESS: at 64.41% examples, 2453994 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:32,591 - word2vec - INFO - EPOCH 2 - PROGRESS: at 65.65% examples, 2452291 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:33,596 - word2vec - INFO - EPOCH 2 - PROGRESS: at 66.96% examples, 2453358 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:34,598 - word2vec - INFO - EPOCH 2 - PROGRESS: at 68.27% examples, 2454157 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:08:35,600 - word2vec - INFO - EPOCH 2 - PROGRESS: at 69.48% examples, 2451282 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:36,601 - word2vec - INFO - EPOCH 2 - PROGRESS: at 70.86% examples, 2454700 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:37,606 - word2vec - INFO - EPOCH 2 - PROGRESS: at 72.12% examples, 2453673 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:38,608 - word2vec - INFO - EPOCH 2 - PROGRESS: at 73.53% examples, 2458045 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:39,611 - word2vec - INFO - EPOCH 2 - PROGRESS: at 74.93% examples, 2461637 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:40,612 - word2vec - INFO - EPOCH 2 - PROGRESS: at 76.34% examples, 2465615 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:41,614 - word2vec - INFO - EPOCH 2 - PROGRESS: at 77.74% examples, 2468850 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:42,614 - word2vec - INFO - EPOCH 2 - PROGRESS: at 79.14% examples, 2472600 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:43,615 - word2vec - INFO - EPOCH 2 - PROGRESS: at 80.49% examples, 2474309 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:44,619 - word2vec - INFO - EPOCH 2 - PROGRESS: at 81.82% examples, 2475274 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:45,624 - word2vec - INFO - EPOCH 2 - PROGRESS: at 83.19% examples, 2477240 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:46,627 - word2vec - INFO - EPOCH 2 - PROGRESS: at 84.52% examples, 2478275 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:47,627 - word2vec - INFO - EPOCH 2 - PROGRESS: at 85.92% examples, 2481196 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:08:48,632 - word2vec - INFO - EPOCH 2 - PROGRESS: at 87.36% examples, 2484997 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:49,633 - word2vec - INFO - EPOCH 2 - PROGRESS: at 88.78% examples, 2488471 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:08:50,633 - word2vec - INFO - EPOCH 2 - PROGRESS: at 90.17% examples, 2491009 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:51,635 - word2vec - INFO - EPOCH 2 - PROGRESS: at 91.61% examples, 2494610 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:52,636 - word2vec - INFO - EPOCH 2 - PROGRESS: at 92.89% examples, 2493892 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:53,637 - word2vec - INFO - EPOCH 2 - PROGRESS: at 94.26% examples, 2495681 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:54,642 - word2vec - INFO - EPOCH 2 - PROGRESS: at 95.61% examples, 2496466 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:55,642 - word2vec - INFO - EPOCH 2 - PROGRESS: at 96.98% examples, 2498190 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:08:56,644 - word2vec - INFO - EPOCH 2 - PROGRESS: at 98.27% examples, 2497737 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:57,647 - word2vec - INFO - EPOCH 2 - PROGRESS: at 99.69% examples, 2500339 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:57,868 - word2vec - INFO - EPOCH 2: training on 253369830 raw words (191114331 effective words) took 76.4s, 2500747 effective words/s
+2025-11-20 01:08:58,871 - word2vec - INFO - EPOCH 3 - PROGRESS: at 1.39% examples, 2656768 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:08:59,873 - word2vec - INFO - EPOCH 3 - PROGRESS: at 2.79% examples, 2662269 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:09:00,874 - word2vec - INFO - EPOCH 3 - PROGRESS: at 3.98% examples, 2534059 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:01,876 - word2vec - INFO - EPOCH 3 - PROGRESS: at 5.33% examples, 2542661 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:02,877 - word2vec - INFO - EPOCH 3 - PROGRESS: at 6.67% examples, 2547097 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:09:03,882 - word2vec - INFO - EPOCH 3 - PROGRESS: at 8.06% examples, 2564720 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:04,885 - word2vec - INFO - EPOCH 3 - PROGRESS: at 9.46% examples, 2577725 words/s, in_qsize 8, out_qsize 1
+2025-11-20 01:09:05,885 - word2vec - INFO - EPOCH 3 - PROGRESS: at 10.87% examples, 2592949 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:06,885 - word2vec - INFO - EPOCH 3 - PROGRESS: at 12.31% examples, 2610073 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:09:07,892 - word2vec - INFO - EPOCH 3 - PROGRESS: at 13.73% examples, 2619638 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:08,893 - word2vec - INFO - EPOCH 3 - PROGRESS: at 15.09% examples, 2618524 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:09,900 - word2vec - INFO - EPOCH 3 - PROGRESS: at 16.40% examples, 2606542 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:10,904 - word2vec - INFO - EPOCH 3 - PROGRESS: at 17.79% examples, 2609747 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:11,906 - word2vec - INFO - EPOCH 3 - PROGRESS: at 19.22% examples, 2618599 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:12,906 - word2vec - INFO - EPOCH 3 - PROGRESS: at 20.61% examples, 2621419 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:13,907 - word2vec - INFO - EPOCH 3 - PROGRESS: at 21.96% examples, 2618811 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:09:14,908 - word2vec - INFO - EPOCH 3 - PROGRESS: at 23.33% examples, 2618735 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:15,908 - word2vec - INFO - EPOCH 3 - PROGRESS: at 24.73% examples, 2622020 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:16,909 - word2vec - INFO - EPOCH 3 - PROGRESS: at 26.14% examples, 2624974 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:17,909 - word2vec - INFO - EPOCH 3 - PROGRESS: at 27.52% examples, 2626871 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:18,910 - word2vec - INFO - EPOCH 3 - PROGRESS: at 28.90% examples, 2626859 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:19,910 - word2vec - INFO - EPOCH 3 - PROGRESS: at 30.12% examples, 2612841 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:20,917 - word2vec - INFO - EPOCH 3 - PROGRESS: at 31.38% examples, 2602788 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:21,922 - word2vec - INFO - EPOCH 3 - PROGRESS: at 32.69% examples, 2598105 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:22,923 - word2vec - INFO - EPOCH 3 - PROGRESS: at 34.00% examples, 2593671 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:23,924 - word2vec - INFO - EPOCH 3 - PROGRESS: at 35.27% examples, 2587170 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:24,925 - word2vec - INFO - EPOCH 3 - PROGRESS: at 36.42% examples, 2572999 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:25,927 - word2vec - INFO - EPOCH 3 - PROGRESS: at 37.62% examples, 2562232 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:26,944 - word2vec - INFO - EPOCH 3 - PROGRESS: at 38.82% examples, 2551510 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:27,946 - word2vec - INFO - EPOCH 3 - PROGRESS: at 39.88% examples, 2534107 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:28,948 - word2vec - INFO - EPOCH 3 - PROGRESS: at 41.11% examples, 2527752 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:29,948 - word2vec - INFO - EPOCH 3 - PROGRESS: at 42.39% examples, 2525429 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:09:30,949 - word2vec - INFO - EPOCH 3 - PROGRESS: at 43.78% examples, 2528700 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:09:31,950 - word2vec - INFO - EPOCH 3 - PROGRESS: at 45.17% examples, 2532610 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:09:32,952 - word2vec - INFO - EPOCH 3 - PROGRESS: at 46.52% examples, 2533185 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:33,954 - word2vec - INFO - EPOCH 3 - PROGRESS: at 47.93% examples, 2537515 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:34,958 - word2vec - INFO - EPOCH 3 - PROGRESS: at 49.32% examples, 2540704 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:35,958 - word2vec - INFO - EPOCH 3 - PROGRESS: at 50.70% examples, 2543156 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:36,958 - word2vec - INFO - EPOCH 3 - PROGRESS: at 52.13% examples, 2547810 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:37,959 - word2vec - INFO - EPOCH 3 - PROGRESS: at 53.51% examples, 2550104 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:38,962 - word2vec - INFO - EPOCH 3 - PROGRESS: at 54.92% examples, 2553458 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:39,961 - word2vec - INFO - EPOCH 3 - PROGRESS: at 56.34% examples, 2557152 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:40,962 - word2vec - INFO - EPOCH 3 - PROGRESS: at 57.75% examples, 2560467 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:41,962 - word2vec - INFO - EPOCH 3 - PROGRESS: at 59.16% examples, 2562985 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:09:42,963 - word2vec - INFO - EPOCH 3 - PROGRESS: at 60.57% examples, 2566210 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:43,964 - word2vec - INFO - EPOCH 3 - PROGRESS: at 61.89% examples, 2565450 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:44,966 - word2vec - INFO - EPOCH 3 - PROGRESS: at 63.30% examples, 2568111 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:45,967 - word2vec - INFO - EPOCH 3 - PROGRESS: at 64.71% examples, 2570499 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:46,973 - word2vec - INFO - EPOCH 3 - PROGRESS: at 66.12% examples, 2572544 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:47,975 - word2vec - INFO - EPOCH 3 - PROGRESS: at 67.48% examples, 2573253 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:48,977 - word2vec - INFO - EPOCH 3 - PROGRESS: at 68.88% examples, 2575217 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:49,978 - word2vec - INFO - EPOCH 3 - PROGRESS: at 70.30% examples, 2577588 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:50,979 - word2vec - INFO - EPOCH 3 - PROGRESS: at 71.64% examples, 2577363 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:51,980 - word2vec - INFO - EPOCH 3 - PROGRESS: at 72.87% examples, 2573106 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:52,981 - word2vec - INFO - EPOCH 3 - PROGRESS: at 74.21% examples, 2573069 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:53,983 - word2vec - INFO - EPOCH 3 - PROGRESS: at 75.35% examples, 2565779 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:54,984 - word2vec - INFO - EPOCH 3 - PROGRESS: at 76.72% examples, 2566686 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:55,984 - word2vec - INFO - EPOCH 3 - PROGRESS: at 78.09% examples, 2567710 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:56,984 - word2vec - INFO - EPOCH 3 - PROGRESS: at 79.39% examples, 2566626 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:57,985 - word2vec - INFO - EPOCH 3 - PROGRESS: at 80.63% examples, 2563266 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:58,985 - word2vec - INFO - EPOCH 3 - PROGRESS: at 81.91% examples, 2561458 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:09:59,988 - word2vec - INFO - EPOCH 3 - PROGRESS: at 83.24% examples, 2561108 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:00,990 - word2vec - INFO - EPOCH 3 - PROGRESS: at 84.40% examples, 2555419 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:01,990 - word2vec - INFO - EPOCH 3 - PROGRESS: at 85.74% examples, 2555583 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:02,995 - word2vec - INFO - EPOCH 3 - PROGRESS: at 86.94% examples, 2551425 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:03,998 - word2vec - INFO - EPOCH 3 - PROGRESS: at 88.26% examples, 2550884 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:04,999 - word2vec - INFO - EPOCH 3 - PROGRESS: at 89.59% examples, 2550977 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:05,999 - word2vec - INFO - EPOCH 3 - PROGRESS: at 90.97% examples, 2551962 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:06,999 - word2vec - INFO - EPOCH 3 - PROGRESS: at 92.26% examples, 2550878 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:08,000 - word2vec - INFO - EPOCH 3 - PROGRESS: at 93.47% examples, 2547455 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:08,999 - word2vec - INFO - EPOCH 3 - PROGRESS: at 94.76% examples, 2546246 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:10,006 - word2vec - INFO - EPOCH 3 - PROGRESS: at 96.13% examples, 2547114 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:11,007 - word2vec - INFO - EPOCH 3 - PROGRESS: at 97.55% examples, 2549205 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:12,008 - word2vec - INFO - EPOCH 3 - PROGRESS: at 98.95% examples, 2550696 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:12,756 - word2vec - INFO - EPOCH 3: training on 253369830 raw words (191116567 effective words) took 74.9s, 2552053 effective words/s
+2025-11-20 01:10:13,762 - word2vec - INFO - EPOCH 4 - PROGRESS: at 1.41% examples, 2701201 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:14,762 - word2vec - INFO - EPOCH 4 - PROGRESS: at 2.79% examples, 2667558 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:15,761 - word2vec - INFO - EPOCH 4 - PROGRESS: at 4.21% examples, 2680854 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:16,763 - word2vec - INFO - EPOCH 4 - PROGRESS: at 5.61% examples, 2679287 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:10:17,764 - word2vec - INFO - EPOCH 4 - PROGRESS: at 7.02% examples, 2680447 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:18,769 - word2vec - INFO - EPOCH 4 - PROGRESS: at 8.42% examples, 2679755 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:19,775 - word2vec - INFO - EPOCH 4 - PROGRESS: at 9.60% examples, 2618312 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:20,776 - word2vec - INFO - EPOCH 4 - PROGRESS: at 10.90% examples, 2600141 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:21,779 - word2vec - INFO - EPOCH 4 - PROGRESS: at 12.15% examples, 2576537 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:22,788 - word2vec - INFO - EPOCH 4 - PROGRESS: at 13.38% examples, 2552312 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:23,788 - word2vec - INFO - EPOCH 4 - PROGRESS: at 14.61% examples, 2533723 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:24,792 - word2vec - INFO - EPOCH 4 - PROGRESS: at 15.80% examples, 2510583 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:25,794 - word2vec - INFO - EPOCH 4 - PROGRESS: at 16.97% examples, 2490357 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:10:26,803 - word2vec - INFO - EPOCH 4 - PROGRESS: at 18.36% examples, 2500100 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:27,810 - word2vec - INFO - EPOCH 4 - PROGRESS: at 19.62% examples, 2492336 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:28,813 - word2vec - INFO - EPOCH 4 - PROGRESS: at 20.92% examples, 2492324 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:10:29,816 - word2vec - INFO - EPOCH 4 - PROGRESS: at 22.27% examples, 2497144 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:30,823 - word2vec - INFO - EPOCH 4 - PROGRESS: at 23.61% examples, 2499245 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:31,827 - word2vec - INFO - EPOCH 4 - PROGRESS: at 24.95% examples, 2502330 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:32,828 - word2vec - INFO - EPOCH 4 - PROGRESS: at 26.21% examples, 2497091 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:33,829 - word2vec - INFO - EPOCH 4 - PROGRESS: at 27.46% examples, 2492415 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:10:34,833 - word2vec - INFO - EPOCH 4 - PROGRESS: at 28.76% examples, 2491996 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:35,839 - word2vec - INFO - EPOCH 4 - PROGRESS: at 30.01% examples, 2486682 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:36,844 - word2vec - INFO - EPOCH 4 - PROGRESS: at 31.39% examples, 2492057 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:37,845 - word2vec - INFO - EPOCH 4 - PROGRESS: at 32.77% examples, 2497005 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:10:38,845 - word2vec - INFO - EPOCH 4 - PROGRESS: at 34.02% examples, 2492478 words/s, in_qsize 7, out_qsize 1
+2025-11-20 01:10:39,845 - word2vec - INFO - EPOCH 4 - PROGRESS: at 35.38% examples, 2496258 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:10:40,849 - word2vec - INFO - EPOCH 4 - PROGRESS: at 36.73% examples, 2498789 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:41,853 - word2vec - INFO - EPOCH 4 - PROGRESS: at 37.90% examples, 2489193 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:42,854 - word2vec - INFO - EPOCH 4 - PROGRESS: at 39.06% examples, 2480704 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:43,856 - word2vec - INFO - EPOCH 4 - PROGRESS: at 40.40% examples, 2482852 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:44,858 - word2vec - INFO - EPOCH 4 - PROGRESS: at 41.74% examples, 2484859 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:45,861 - word2vec - INFO - EPOCH 4 - PROGRESS: at 42.95% examples, 2479385 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:46,863 - word2vec - INFO - EPOCH 4 - PROGRESS: at 44.05% examples, 2467724 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:47,867 - word2vec - INFO - EPOCH 4 - PROGRESS: at 45.30% examples, 2465351 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:48,869 - word2vec - INFO - EPOCH 4 - PROGRESS: at 46.67% examples, 2469256 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:10:49,874 - word2vec - INFO - EPOCH 4 - PROGRESS: at 48.03% examples, 2472137 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:50,874 - word2vec - INFO - EPOCH 4 - PROGRESS: at 49.24% examples, 2468291 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:51,877 - word2vec - INFO - EPOCH 4 - PROGRESS: at 50.45% examples, 2463985 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:10:52,879 - word2vec - INFO - EPOCH 4 - PROGRESS: at 51.72% examples, 2463055 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:53,883 - word2vec - INFO - EPOCH 4 - PROGRESS: at 52.95% examples, 2459868 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:54,886 - word2vec - INFO - EPOCH 4 - PROGRESS: at 54.24% examples, 2459941 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:10:55,889 - word2vec - INFO - EPOCH 4 - PROGRESS: at 55.56% examples, 2461331 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:10:56,891 - word2vec - INFO - EPOCH 4 - PROGRESS: at 56.68% examples, 2453784 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:57,894 - word2vec - INFO - EPOCH 4 - PROGRESS: at 57.81% examples, 2447291 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:10:58,897 - word2vec - INFO - EPOCH 4 - PROGRESS: at 58.91% examples, 2439308 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:10:59,899 - word2vec - INFO - EPOCH 4 - PROGRESS: at 59.96% examples, 2430142 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:11:00,902 - word2vec - INFO - EPOCH 4 - PROGRESS: at 61.34% examples, 2434393 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:01,904 - word2vec - INFO - EPOCH 4 - PROGRESS: at 62.74% examples, 2439104 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:02,909 - word2vec - INFO - EPOCH 4 - PROGRESS: at 64.11% examples, 2442283 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:03,912 - word2vec - INFO - EPOCH 4 - PROGRESS: at 65.52% examples, 2447168 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:04,915 - word2vec - INFO - EPOCH 4 - PROGRESS: at 66.90% examples, 2450732 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:05,917 - word2vec - INFO - EPOCH 4 - PROGRESS: at 68.32% examples, 2455700 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:11:06,919 - word2vec - INFO - EPOCH 4 - PROGRESS: at 69.70% examples, 2458718 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:07,924 - word2vec - INFO - EPOCH 4 - PROGRESS: at 71.09% examples, 2462378 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:08,929 - word2vec - INFO - EPOCH 4 - PROGRESS: at 72.52% examples, 2466991 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:09,932 - word2vec - INFO - EPOCH 4 - PROGRESS: at 73.95% examples, 2471499 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:10,938 - word2vec - INFO - EPOCH 4 - PROGRESS: at 75.36% examples, 2474979 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:11,942 - word2vec - INFO - EPOCH 4 - PROGRESS: at 76.79% examples, 2479164 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:12,946 - word2vec - INFO - EPOCH 4 - PROGRESS: at 78.19% examples, 2482426 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:13,948 - word2vec - INFO - EPOCH 4 - PROGRESS: at 79.60% examples, 2486121 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:14,951 - word2vec - INFO - EPOCH 4 - PROGRESS: at 80.99% examples, 2488914 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:15,954 - word2vec - INFO - EPOCH 4 - PROGRESS: at 82.42% examples, 2492575 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:16,958 - word2vec - INFO - EPOCH 4 - PROGRESS: at 83.82% examples, 2495333 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:17,962 - word2vec - INFO - EPOCH 4 - PROGRESS: at 85.25% examples, 2498811 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:18,963 - word2vec - INFO - EPOCH 4 - PROGRESS: at 86.68% examples, 2502276 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:11:19,963 - word2vec - INFO - EPOCH 4 - PROGRESS: at 88.09% examples, 2505124 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:20,969 - word2vec - INFO - EPOCH 4 - PROGRESS: at 89.49% examples, 2507689 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:21,974 - word2vec - INFO - EPOCH 4 - PROGRESS: at 90.91% examples, 2510525 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:22,974 - word2vec - INFO - EPOCH 4 - PROGRESS: at 92.26% examples, 2511429 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:23,976 - word2vec - INFO - EPOCH 4 - PROGRESS: at 93.64% examples, 2513113 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:24,978 - word2vec - INFO - EPOCH 4 - PROGRESS: at 95.08% examples, 2516245 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:25,979 - word2vec - INFO - EPOCH 4 - PROGRESS: at 96.49% examples, 2518844 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:11:26,984 - word2vec - INFO - EPOCH 4 - PROGRESS: at 97.92% examples, 2521316 words/s, in_qsize 8, out_qsize 0
+2025-11-20 01:11:27,989 - word2vec - INFO - EPOCH 4 - PROGRESS: at 99.34% examples, 2523663 words/s, in_qsize 7, out_qsize 0
+2025-11-20 01:11:28,455 - word2vec - INFO - EPOCH 4: training on 253369830 raw words (191116019 effective words) took 75.7s, 2524795 effective words/s
+2025-11-20 01:11:28,455 - utils - INFO - Word2Vec lifecycle event {'msg': 'training on 1266849150 raw words (955573601 effective words) took 383.3s, 2493138 effective words/s', 'datetime': '2025-11-20T01:11:28.455131', 'gensim': '4.4.0', 'python': '3.11.14 | packaged by conda-forge | (main, Oct 22 2025, 22:35:28) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26200-SP0', 'event': 'train'}
+2025-11-20 01:11:28,455 - utils - INFO - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=2164232, vector_size=100, alpha=0.025>', 'datetime': '2025-11-20T01:11:28.455131', 'gensim': '4.4.0', 'python': '3.11.14 | packaged by conda-forge | (main, Oct 22 2025, 22:35:28) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26200-SP0', 'event': 'created'}
+2025-11-20 01:19:43,293 - utils - INFO - Word2Vec lifecycle event {'fname_or_handle': 'word2vec_gensim.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2025-11-20T01:19:43.292705', 'gensim': '4.4.0', 'python': '3.11.14 | packaged by conda-forge | (main, Oct 22 2025, 22:35:28) [MSC v.1944 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26200-SP0', 'event': 'saving'}
+2025-11-20 01:19:43,308 - utils - INFO - storing np array 'vectors' to word2vec_gensim.model.wv.vectors.npy
+2025-11-20 01:19:44,627 - utils - INFO - storing np array 'syn1neg' to word2vec_gensim.model.syn1neg.npy
+2025-11-20 01:19:48,868 - utils - INFO - not storing attribute cum_table
+2025-11-20 01:20:05,365 - utils - INFO - saved word2vec_gensim.model
